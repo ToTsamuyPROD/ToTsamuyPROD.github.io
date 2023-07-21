@@ -1,0 +1,5240 @@
+
+
+
+/* на компы */
+@media screen and (min-width: 769px) {
+  body {
+    background-image: url("1.jpg");
+    background-size: cover;
+  background-attachment: fixed;
+  }
+  
+
+  .main{
+    position: absolute;
+    color: white;
+    margin-left: 650px;
+    top: 35px;
+    font-family: Montserrat,sans-serif;
+    font-weight: 550;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+  .support{
+    position: absolute;
+    color: white;
+    margin-left: 750px;
+    top: 35px;
+
+    font-family: Montserrat,sans-serif;
+    font-weight: 550;
+    font-size: 15px;
+  }
+
+  .guarantees{
+    position: absolute;
+    color: white;
+    margin-left: 880px;
+    top: 35px;
+
+    font-family: Montserrat,sans-serif;
+    font-weight: 550;
+    font-size: 15px;
+  }
+
+  .howbuy{
+    position: absolute;
+    color: white;
+    margin-left: 990px;
+    top: 35px;
+    font-family: Montserrat,sans-serif;
+    font-weight: 550;
+    font-size: 15px;
+  }
+  .feed{
+    position: absolute;
+    color: #ffba00;
+    margin-left: 1110px;
+    top: 35px;
+
+    font-family: Montserrat,sans-serif;
+    font-weight: 650;
+    font-size: 15px;
+  }
+
+  
+
+  .header a {
+    color: white;
+    transition: color 0.5s ease;
+  }
+
+  .header a:hover {
+    color: #ffba00;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  }
+
+  .header .feed {
+    color: #ffba00;
+    transition: color 0.5s ease;
+  }
+
+  .header .feed:hover {
+    color: white;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  }
+
+.warrantyf{
+  color: #ffba00;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    position: absolute;
+    margin-left: 800px;
+    top: 150px;
+    font-size: 30px;
+}
+.govno {
+  margin-left: 400px;
+  color: #ffc131;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 50000;
+  transition: color 0.5s ease-in-out, text-shadow 0.5s ease-in-out;
+  pointer-events: none; /* добавляем свойство pointer-events */
+}
+
+#animated-container {
+  display: inline-block;
+}
+
+#animated-container #animated {
+  color: #ffba00;
+  transition: color 0.5s ease;
+  
+}
+
+#animated-container:not(.header):hover #animated {
+  color: white;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+  
+
+  .warranty {
+    color: #ffba00;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    position: absolute;
+    margin-left: 740px;
+    top: 150px;
+    font-size: 30px;
+    transition: color 0.5s ease-in-out, text-shadow 0.5s ease-in-out; /* добавляем плавную анимацию */
+  }
+  
+  .warranty:hover {
+    color: #ffffff; /* меняем цвет текста на белый */
+    text-shadow: 0 0 10px #ffffff; /* добавляем тень белого цвета */
+  }
+    .EmailLabel {
+    position: absolute;
+    top:200px;
+    margin-left: 820px;
+    color: #e3e3e3;
+    font-family: Montserrat,sans-serif;
+    font-weight: 650;
+    
+    }
+    .EmailInput{
+    padding: 10px;
+    position: absolute;
+    margin-left: 770px;
+    margin-top: 360px;
+    width: 275px;
+    height: 50px;
+    background-color: transparent;
+    border: 2px solid rgb(48, 47, 66);
+    border-radius: 10px;
+    color: rgb(212, 216, 245);
+    background-color: rgba(0, 0, 0, 0.3);
+    font-family: Montserrat,sans-serif;
+    font-weight: 390;
+    
+    }
+    .NameLabel {
+    position: absolute;
+    top:325px;
+    margin-left: 830px;
+    color: #e3e3e3;
+    font-family: Montserrat,sans-serif;
+    font-weight: 650;
+    
+    }
+    .NameInput{
+    padding: 10px;
+    position: absolute;
+    margin-left: 770px;
+    margin-top: 230px;
+    width: 275px;
+    height: 50px;
+    background-color: transparent; /* делаем фон прозрачным */
+    border: 2px solid rgb(48, 47, 66); /* добавляем границу шириной 2 пикселя и цветом красный */
+    border-radius: 10px;
+    color: rgb(212, 216, 245);
+    background-color: rgba(0, 0, 0, 0.3);
+    font-family: Montserrat,sans-serif;
+    font-weight: 390;
+    }
+    .ProblemLabel{
+    position: absolute;
+    top:450px;
+    margin-left: 830px;
+    color: #e3e3e3;
+    font-family: Montserrat,sans-serif;
+    font-weight: 650;
+    
+    }
+    .ProblemInput{
+    padding: 10px;
+    position: absolute;
+    margin-left: 570px;
+    margin-top: 480px;
+    width: 700px;
+    height: 150px;
+    background-color: transparent;
+    border: 2px solid rgb(48, 47, 66);
+    border-radius: 10px;
+    color: rgb(212, 216, 245);
+    background-color: rgba(0, 0, 0, 0.3);
+    font-family: Montserrat,sans-serif;
+    font-weight: 390;
+    
+    outline: none;
+    
+    }
+    .sprtBtn{
+    position: absolute;
+    margin-left: 870px;
+    margin-top: 700px;
+    background-color: transparent;
+    border: 2px solid rgb(48, 47, 66);
+    width: 120px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    
+    }
+
+    .sprtBtn:hover {
+      box-shadow: 0px 0px 10px rgb(107, 105, 172);
+    }
+
+
+  .firstgur {
+    position: absolute;
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-weight: 350;
+    padding: 200px;
+    line-height: 2;
+    font-size: 15px;
+    top: 50px;
+    margin-left: 20px;
+}
+
+.windowinsupport {
+  opacity: 1; /* устанавливаем начальную прозрачность элемента */
+  transition: opacity 1s ease-in-out; /* добавляем анимацию */
+}
+
+.windowinsupport.show {
+  opacity: 0; /* устанавливаем полную непрозрачность элемента */
+}
+
+
+  .silka{
+    color: #ffba00;
+    font-family: Montserrat,sans-serif;
+    font-weight: 600;
+  }
+
+  .firstreview {
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid rgb(48, 47, 66);
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 33px;
+    margin-left: 300px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    opacity: 0; /* установка начальной прозрачности элемента */
+    animation: fadeIn 1s ease forwards; /* добавление анимации */
+    
+    }
+    
+  @keyframes fadeIn {
+    from {
+      opacity: -2; /* начальное состояние анимации */
+    }
+    to {
+      opacity: 3; /* конечное состояние анимации */
+    }
+  }
+
+  input:focus {
+    outline: none;
+  }
+
+  .dmca {
+    position: absolute;
+    margin-left: 866px;
+    top: 800px;
+  }
+  
+
+
+
+  @keyframes fadeIn {
+    from {
+    opacity: 0;
+    transform: translateY(50px);
+    }
+    to {
+    opacity: 1;
+    transform: translateY(0);
+    }
+    }
+
+    
+    
+    [class^="review"] {
+      animation: fadeIn 1s ease forwards;
+      opacity: 0;
+    }
+    
+      .ponos {
+        opacity: 0; /* устанавливаем начальное значение прозрачности */
+        animation: fadeIn 1s ease-in-out forwards; /* добавляем анимацию появления */
+      }
+      
+      @keyframes fadeIn {
+        from {
+          opacity: 0; /* начальное значение прозрачности 0 */
+        }
+        to {
+          opacity: 1; /* конечное значение прозрачности 1 */
+        }
+      }
+
+
+      .sellday {
+        color: #ffba00;
+        font-family: Montserrat, sans-serif;
+        font-weight: 600;
+        position: absolute;
+        margin-left: 800px;
+        top: 150px;
+        font-size: 30px;
+        transition: color 0.5s ease-in-out, text-shadow 0.5s ease-in-out; /* добавляем плавную анимацию */
+      }
+      
+      .sellday:hover {
+        color: #ffffff; /* меняем цвет текста на белый */
+    text-shadow: 0 0 10px #ffffff; /* добавляем тень белого цвета */
+      }
+
+
+      .productDay {
+        border: 2px solid rgb(48, 47, 66);
+        width: 300px;
+        height: 250px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+        position: absolute;
+        opacity: 0;
+        animation: fadeIn 1s ease-in-out forwards; /* добавляем свойство forwards */
+      }
+      
+      .firstProductDay {
+        margin-top: 150px;
+        margin-left: 350px;
+        animation-delay: 0.2s;
+      }
+      
+      .secondProductDay {
+        bottom: 475px;
+        margin-left: 750px;
+        animation-delay: 0.5s;
+      }
+      
+      .thirdProductDay {
+        bottom: 475px;
+        margin-left: 1150px;
+        animation-delay: 0.9s;
+      }
+      
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      
+
+.selectGame{
+  color: #ffba00;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    position: absolute;
+    margin-left: 785px;
+    top: 510px;
+    font-size: 30px;
+    transition: color 0.5s ease-in-out, text-shadow 0.5s ease-in-out; /* добавляем плавную анимацию */
+  
+}
+
+.fade-in {
+  animation-name: fadeInDelayed;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+.selectGame:hover {
+  color: #ffffff; /* меняем цвет текста на белый */
+text-shadow: 0 0 10px #ffffff; /* добавляем тень белого цвета */
+}
+
+.bsDiv, .stdfDiv, .pbgDiv {
+  width: 300px;
+  height: 250px;
+  border-radius: 10px;
+  top: 600px;
+  position: absolute;
+  opacity: 0;
+  transition: transform 0.3s ease-in-out;
+}
+
+.bsDiv {
+  margin-left: 350px;
+  animation-duration: 1s;
+  animation-delay: 0.2s;
+}
+
+.stdfDiv {
+  margin-left: 750px;
+  animation-duration: 1s;
+  animation-delay: 0.5s;
+}
+
+.pbgDiv {
+  margin-left: 1150px;
+  animation-duration: 1s;
+  animation-delay: 0.9s;
+}
+
+.bsDiv:hover, .stdfDiv:hover, .pbgDiv:hover {
+  transform: rotate(5deg) scale(1.1);
+}
+.fade-in-delayed {
+  animation-name: fadeInDelayed;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInDelayed {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+@keyframes fadeInDelayed {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.bsLogo{
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  left: 30px;
+}
+
+.standoffLogo {
+  width: 620px;
+  height: 350px;
+  position: absolute;
+  left: -160px;
+  top: -50px;
+  pointer-events: none;
+}
+
+.stdDiv {
+  position: relative;
+}
+
+.stdDiv:hover .standoffLogo {
+  transform: rotate(2deg) scale(1.1);
+}
+
+.stdDiv:hover {
+  transform: rotate(2deg) scale(1.1);
+}
+
+.pubgLogo {
+  width: 400px;
+  height: 200px;
+  position: absolute;
+  top: 20px;
+  left: -30px;
+}
+
+.twogems{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 90px;
+    margin-left: 300px;
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+}
+
+.twogems:hover {
+  transform: scale(1.05) rotate(3deg);
+}
+
+.twogems {
+  position: relative;
+  display: inline-block;
+}
+
+.smallgems {
+  width: 220px;
+  pointer-events: none;
+  position: absolute;
+  left: 15px;
+}
+
+.smallgemscount {
+  font-family: Montserrat,sans-serif;
+    font-weight: 700;
+    color: white;
+    position: absolute;
+    pointer-events: none;
+    position: absolute;
+    bottom: 85px;
+    right: 180px;
+}
+
+.promocode{
+  font-family: Montserrat,sans-serif;
+    font-weight: 350;
+    color: grey;
+    font-size: 15px;
+    position: absolute;
+    pointer-events: none;
+    position: absolute;
+    bottom: 68px;
+    right: 201px;
+}
+
+.buyBtn {
+  outline: none;
+  border: none;
+  background-color:  #ffba00;
+  font-family: Montserrat,sans-serif;
+  font-weight: 610;
+  width: 110px;
+  height: 35px;
+  position: absolute;
+  font-size: 17px;
+  bottom: 21px;
+  right: 170px;
+}
+
+.buyBtn:hover {
+  box-shadow: 0 0 5px 3px rgb(222, 168, 42);
+}
+
+.gemsPriceOne {
+  font-family: Montserrat,sans-serif;
+    font-weight: 660;
+    color: white;
+    position: absolute;
+    pointer-events: none;
+    position: absolute;
+    bottom: 25px;
+    right: 68px;
+    font-size: 23px;
+}
+
+.discountBsFirst {
+  font-family: Montserrat,sans-serif;
+    font-weight: 400;
+    color: grey;
+    font-size: 14px;
+    position: absolute;
+    pointer-events: none;
+    position: absolute;
+    bottom: 50px;
+    right: 9px;
+    text-decoration: line-through;
+}
+
+.threegems {
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 90px;
+    margin-left: 300px;
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+    left: -240px;
+}
+
+
+.threegems:hover {
+  transform: scale(1.05) rotate(3deg);
+}
+
+.threegems {
+  position: relative;
+  display: inline-block;
+}
+
+.mediumgems {
+  width: 220px;
+  pointer-events: none;
+  position: absolute;
+  left: 15px;
+  top: -30px;
+}
+
+.fourgames {
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 90px;
+    margin-left: 300px;
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+    left: -490px;
+}
+
+
+.fourgames:hover {
+  transform: scale(1.05) rotate(3deg);
+}
+
+.fourgames {
+  position: relative;
+  display: inline-block;
+}
+
+
+.fivegames {
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    top: -300px;
+    margin-left: 500px;
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+    left: 850px;
+}
+
+
+.fivegames:hover {
+  transform: scale(1.05) rotate(3deg);
+}
+
+.fivegames {
+  position: relative;
+  display: inline-block;
+}
+
+.voronSell {
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    position: absolute;
+    right: 510px;
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+    bottom: -60px;
+}
+
+
+.voronSell:hover {
+  transform: scale(1.05) rotate(3deg);
+}
+
+.voronSell {
+  position: relative;
+  display: inline-block;
+}
+
+.crowpng{
+  width: 160px;
+  pointer-events: none;
+  position: absolute;
+  left: 35px;
+  top: -80px;
+}
+
+.heroname {
+  font-family: Montserrat,sans-serif;
+    font-weight: 700;
+    color: white;
+    position: absolute;
+    pointer-events: none;
+    position: absolute;
+    bottom: 85px;
+    right: 198px;
+}
+
+.heroes {
+  font-family: Montserrat,sans-serif;
+    font-weight: 350;
+    color: grey;
+    font-size: 15px;
+    position: absolute;
+    pointer-events: none;
+    position: absolute;
+    bottom: 68px;
+    right: 210px;
+}
+
+
+.leonSell {
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    position: absolute;
+    right: 450px;
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+    bottom: -60px;
+}
+
+
+.leonSell:hover {
+  transform: scale(1.05) rotate(3deg);
+}
+
+.leonSell {
+  position: relative;
+  display: inline-block;
+}
+
+.leonpng{
+  width: 200px;
+  pointer-events: none;
+  position: absolute;
+  left: 35px;
+  top: -80px;
+}
+
+.heronameLeon {
+  font-family: Montserrat,sans-serif;
+    font-weight: 700;
+    color: white;
+    position: absolute;
+    pointer-events: none;
+    position: absolute;
+    bottom: 85px;
+    right: 206px;
+}
+
+.sandySell {
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    position: absolute;
+    right: 400px;
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+    bottom: -60px;
+}
+
+
+.sandySell:hover {
+  transform: scale(1.05) rotate(3deg);
+}
+
+.sandySell {
+  position: relative;
+  display: inline-block;
+}
+
+.sandypng{
+  width: 170px;
+  pointer-events: none;
+  position: absolute;
+  left: 35px;
+  top: -80px;
+}
+
+
+.spikeSell {
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    position: absolute;
+    left: 1350px;
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+    bottom: 235px;
+}
+
+
+.spikeSell:hover {
+  transform: scale(1.05) rotate(3deg);
+}
+
+.spikeSell {
+  position: relative;
+  display: inline-block;
+}
+
+.spikepng{
+  width: 290px;
+  pointer-events: none;
+  position: absolute;
+  left: -29px;
+  top: -70px;
+}
+
+.maxSell {
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    position: absolute;
+    left: 0px;
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+    bottom: -150px;
+}
+
+
+.maxSell:hover {
+  transform: scale(1.05) rotate(3deg);
+}
+
+.maxSell {
+  position: relative;
+  display: inline-block;
+}
+
+.maxpng {
+  width: 160px;
+  pointer-events: none;
+  position: absolute;
+  left: 65px;
+  top: -100px;
+}
+
+.beaSell {
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    position: absolute;
+    left: 35px;
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+    bottom: -150px;
+}
+
+
+.beaSell:hover {
+  transform: scale(1.05) rotate(3deg);
+}
+
+.beaSell {
+  position: relative;
+  display: inline-block;
+}
+
+.heronameBea {
+  font-family: Montserrat,sans-serif;
+    font-weight: 700;
+    color: white;
+    position: absolute;
+    pointer-events: none;
+    position: absolute;
+    bottom: 85px;
+    right: 215px;
+}
+
+.beapng {
+  width: 275px;
+  pointer-events: none;
+  position: absolute;
+  left: 0px;
+  top: -100px;
+}
+
+
+.amberSell {
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    position: absolute;
+    left: 85px;
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+    bottom: -150px;
+}
+
+
+.amberSell:hover {
+  transform: scale(1.05) rotate(3deg);
+}
+
+.amberSell {
+  position: relative;
+  display: inline-block;
+}
+
+.amberpng {
+  width: 320px;
+  pointer-events: none;
+  position: absolute;
+  left: 0px;
+  top: -120px;
+}
+
+.heronameAmber{
+  font-family: Montserrat,sans-serif;
+    font-weight: 700;
+    color: white;
+    position: absolute;
+    pointer-events: none;
+    position: absolute;
+    bottom: 85px;
+    right: 200px;
+}
+
+.megSell {
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    position: absolute;
+    left: 135px;
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+    bottom: -150px;
+}
+
+
+.megSell:hover {
+  transform: scale(1.05) rotate(3deg);
+}
+
+.megSell {
+  position: relative;
+  display: inline-block;
+}
+
+.megpng {
+  width: 200px;
+  pointer-events: none;
+  position: absolute;
+  left: 20px;
+  top: -90px;
+}
+
+.chesterSell {
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    position: absolute;
+    left: -1200px;
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+    bottom: -550px;
+}
+
+
+.chesterSell:hover {
+  transform: scale(1.05) rotate(3deg);
+}
+
+.chesterSell {
+  position: relative;
+  display: inline-block;
+}
+
+.heroesCh{
+  font-family: Montserrat,sans-serif;
+    font-weight: 350;
+    color: grey;
+    font-size: 15px;
+    position: absolute;
+    pointer-events: none;
+    position: absolute;
+    bottom: 68px;
+    right: 217px;
+}
+
+.chesterpng {
+  width: 170px;
+  pointer-events: none;
+  position: absolute;
+  left: 90px;
+  top: -150px;
+}
+
+.mortisSell {
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    position: absolute;
+    left: 650px;
+    top: 250px;
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+}
+
+
+.mortisSell:hover {
+  transform: scale(1.05) rotate(3deg);
+}
+
+.mortisSell {
+  position: relative;
+  display: inline-block;
+}
+
+.mortispng {
+  width: 310px;
+  pointer-events: none;
+  position: absolute;
+  left: -5px;
+  bottom: 100px;
+}
+
+.kordelSell {
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    position: absolute;
+    left: 690px;
+    top: 250px;
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+}
+
+
+.kordelSell:hover {
+  transform: scale(1.05) rotate(3deg);
+}
+
+.kordelSell {
+  position: relative;
+  display: inline-block;
+}
+
+.heronameKord {
+  font-family: Montserrat,sans-serif;
+    font-weight: 700;
+    color: white;
+    position: absolute;
+    pointer-events: none;
+    position: absolute;
+    bottom: 85px;
+    right: 185px;
+}
+
+.kordelpng {
+  width: 330px;
+  pointer-events: none;
+  position: absolute;
+  left: -5px;
+  bottom: 120px;
+}
+
+.eshSell {
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    position: absolute;
+    left: 750px;
+    top: 250px;
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+}
+
+
+.eshSell:hover {
+  transform: scale(1.05) rotate(3deg);
+}
+
+.eshSell {
+  position: relative;
+  display: inline-block;
+}
+
+.heronameesh {
+  font-family: Montserrat,sans-serif;
+    font-weight: 700;
+    color: white;
+    position: absolute;
+    pointer-events: none;
+    position: absolute;
+    bottom: 85px;
+    right: 225px;
+}
+
+.firstgem {
+  padding: 10px;
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 60px;
+    width: 1100px;
+    height: 1100px;
+    background-color: transparent;
+    border: 2px solid rgb(48, 47, 66);
+    border-radius: 10px;
+    color: rgb(212, 216, 245);
+    background-color: rgba(0, 0, 0, 0.3);
+    font-family: Montserrat,sans-serif;
+    font-weight: 390;
+    box-shadow: 0 0 30px 3px rgb(81, 232, 91);
+    outline: none;
+}
+
+.firstgempng {
+  position: absolute;
+  width: 350px;
+  left: 370px;
+  top: 120px;
+}
+
+.firstgemcount {
+  font-family: Montserrat,sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    color: white;
+    position: absolute;
+    pointer-events: none;
+    position: absolute;
+    bottom: 650px;
+    right: 500px;
+}
+
+.firstgempromocode {
+  font-family: Montserrat,sans-serif;
+    font-weight: 350;
+    color: grey;
+    font-size: 15px;
+    position: absolute;
+    pointer-events: none;
+    position: absolute;
+    bottom: 630px;
+    right: 525px;
+}
+
+.firstgemsprice {
+  font-family: Montserrat,sans-serif;
+    font-weight: 660;
+    color: white;
+    position: absolute;
+    pointer-events: none;
+    position: absolute;
+    bottom: 600px;
+    right: 515px;
+    font-size: 23px;
+}
+
+.firstgemdiscount {
+  font-family: Montserrat,sans-serif;
+    font-weight: 400;
+    color: grey;
+    font-size: 14px;
+    position: absolute;
+    pointer-events: none;
+    position: absolute;
+    bottom: 580px;
+    right: 535px;
+    text-decoration: line-through;
+}
+
+.firstgemBuyBtn {
+  outline: none;
+  border: none;
+  background-color:  #ffba00;
+  font-family: Montserrat,sans-serif;
+  font-weight: 610;
+  width: 250px;
+  height: 65px;
+  position: absolute;
+  font-size: 25px;
+  bottom: 490px;
+  right: 440px;
+  border-radius: 10px;
+}
+
+.firstgemBuyBtn:hover {
+  box-shadow: 0 0 30px 3px rgb(255, 0, 0);
+}
+
+
+.inscturction {
+  padding: 10px;
+    position: absolute;
+    margin-left: 65px;
+    margin-top: 750px;
+    width: 950px;
+    height: 330px;
+    background-color: transparent;
+    border: 2px solid rgb(48, 47, 66);
+    border-radius: 30px;
+    color: rgb(212, 216, 245);
+    background-color: rgba(0, 0, 0, 0.3);
+    font-family: Montserrat,sans-serif;
+    font-weight: 390;
+    box-shadow: 0 0 30px 3px rgb(86, 67, 127);
+    outline: none;
+}
+
+.opisanie {
+  font-family: Montserrat,sans-serif;
+  font-size: 19px;
+}
+
+.chto {
+  font-family: Montserrat,sans-serif;
+  position: absolute;
+  top: 55px;
+  left: 10px;
+}
+
+.secondgempng {
+  position: absolute;
+  width: 350px;
+  left: 370px;
+  top: 90px;
+}
+
+.voronkakpng {
+  width: 230px;
+  pointer-events: none;
+  position: absolute;
+  left: 425px;
+  top: 50px;
+}
+
+.leonkapng {
+  width: 250px;
+  pointer-events: none;
+  position: absolute;
+  left: 435px;
+  top: 100px;
+}
+
+.sandykapng{
+  width: 220px;
+  pointer-events: none;
+  position: absolute;
+  left: 425px;
+  top: 90px;
+}
+
+.firstgemcountsandy {
+  font-family: Montserrat,sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    color: white;
+    position: absolute;
+    pointer-events: none;
+    position: absolute;
+    bottom: 650px;
+    right: 490px;
+}
+
+.spikekapng {
+  width: 310px;
+  pointer-events: none;
+  position: absolute;
+  left: 400px;
+  top: 135px;
+}
+
+.maxkapng {
+  width: 210px;
+  pointer-events: none;
+  position: absolute;
+  left: 450px;
+  top: 30px;
+}
+
+.firstgemcountbea {
+  font-family: Montserrat,sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    color: white;
+    position: absolute;
+    pointer-events: none;
+    position: absolute;
+    bottom: 650px;
+    right: 505px;
+}
+
+.beakapng {
+  width: 310px;
+  pointer-events: none;
+  position: absolute;
+  left: 400px;
+  top: 130px;
+}
+
+.amberkapng {
+  width: 370px;
+  pointer-events: none;
+  position: absolute;
+  left: 405px;
+  top: 70px;
+}
+
+.megkapng {
+  width: 270px;
+  pointer-events: none;
+  position: absolute;
+  left: 420px;
+  top: 70px;
+}
+
+.chesterkapng{
+  width: 200px;
+  pointer-events: none;
+  position: absolute;
+  left: 465px;
+  top: 25px;
+}
+
+.mortiskapng {
+  width: 320px;
+  pointer-events: none;
+  position: absolute;
+  left: 385px;
+  top: 95px;
+}
+
+.firstgemcountkord {
+  font-family: Montserrat,sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    color: white;
+    position: absolute;
+    pointer-events: none;
+    position: absolute;
+    bottom: 650px;
+    right: 475px;
+}
+
+.kordkapng {
+  width: 390px;
+  pointer-events: none;
+  position: absolute;
+  left: 345px;
+  top: 178px;
+}
+
+.eshkapng{
+  width: 390px;
+  pointer-events: none;
+  position: absolute;
+  left: 385px;
+  top: 85px;
+}
+
+.firstgemcountchester {
+  font-family: Montserrat,sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    color: white;
+    position: absolute;
+    pointer-events: none;
+    position: absolute;
+    bottom: 650px;
+    right: 485px;
+}
+
+.twogold{
+  position: relative;
+  display: inline-block;
+ 
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 90px;
+    left: 10px;
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+ 
+}
+.twogold:hover {
+  transform: scale(1.05) rotate(3deg);
+}
+.twogold2{
+  position: relative;
+  display: inline-block;
+ 
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 90px;
+    left: 10px;
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+ 
+}
+.twogold2:hover {
+  transform: scale(1.05) rotate(3deg);
+}
+.twogold3{
+  position: relative;
+  display: inline-block;
+ 
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 90px;
+    left: 10px;
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+ 
+}
+.twogold3:hover {
+  transform: scale(1.05) rotate(3deg);
+}
+.smallgems1{
+  width: 370px;
+  pointer-events: none;
+  position: absolute;
+  top: -30px;
+  left: -45px;
+}
+.knifes1{
+  position: relative;
+  display: inline-block;
+ 
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    top: 300px;
+    left: -1220px;
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+ 
+}
+.knifes2{
+  position: relative;
+  display: inline-block;
+ 
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+ 
+    margin-left: 610px;
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+ 
+}
+.knifes3{
+  position: relative;
+  display: inline-block;
+ 
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+ 
+ 
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+ 
+}
+.knifes4{
+  position: relative;
+  display: inline-block;
+ 
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+ 
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+ 
+}
+.knifes5{
+  position: relative;
+  display: inline-block;
+ 
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    top: 300px;
+    margin-left: -1220px;
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+ 
+ 
+}
+.knifes6{
+  position: relative;
+  display: inline-block;
+ 
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    top: 300px;
+ 
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+ 
+ 
+}
+.knifes7{
+  position: relative;
+  display: inline-block;
+ 
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    top: 300px;
+ 
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+ 
+ 
+}
+.knifes8{
+  position: relative;
+  display: inline-block;
+ 
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    top: 300px;
+ 
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+ 
+ 
+}
+.knifes9{
+  position: relative;
+  display: inline-block;
+ 
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    top: 600px;
+    margin-left: -1220px;
+ 
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+ 
+ 
+}.knifes10{
+  position: relative;
+  display: inline-block;
+ 
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    top: 600px;
+ 
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+ 
+ 
+}.knifes11{
+  position: relative;
+  display: inline-block;
+ 
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    top: 600px;
+ 
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+ 
+ 
+}.knifes12{
+  position: relative;
+  display: inline-block;
+ 
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    top: 600px;
+ 
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+ 
+ 
+}
+.smallkunai{
+  width: 250px;
+  pointer-events: none;
+  position: absolute;
+  top: -30px;
+  left: -20px;
+}
+.knifes13{
+  position: relative;
+  display: inline-block;
+ 
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    top: 900px;
+    margin-left: -1220px;
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+ 
+ 
+}.knifes14{
+  position: relative;
+  display: inline-block;
+ 
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    top: 900px;
+ 
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+ 
+ 
+}.knifes15{
+  position: relative;
+  display: inline-block;
+ 
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    top: 900px;
+ 
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+ 
+ 
+}.knifes16{
+  position: relative;
+  display: inline-block;
+ 
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    top: 900px;
+ 
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+ 
+ 
+}
+.knifes17{
+  position: relative;
+  display: inline-block;
+ 
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    top: 1200px;
+    margin-left: -1220px;
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+ 
+ 
+}
+.knifes18{
+  position: relative;
+  display: inline-block;
+ 
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    top: 1200px;
+ 
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+ 
+ 
+}
+.knifes19{
+  position: relative;
+  display: inline-block;
+ 
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    top: 1200px;
+ 
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+ 
+ 
+}
+.knifes20{
+  position: relative;
+  display: inline-block;
+ 
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    top: 1200px;
+ 
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+ 
+ 
+}
+.knifes21{
+  position: relative;
+  display: inline-block;
+ 
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    top: 1500px;
+    margin-left: -1220px;
+ 
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+ 
+ 
+}
+.knifes22{
+  position: relative;
+  display: inline-block;
+ 
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    top: 1500px;
+ 
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+ 
+ 
+}
+.knifes23{
+  position: relative;
+  display: inline-block;
+ 
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    top: 1500px;
+ 
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+ 
+ 
+}
+.knifes24{
+  position: relative;
+  display: inline-block;
+ 
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    top: 1500px;
+ 
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+ 
+ 
+}
+.knifes25{
+  position: relative;
+  display: inline-block;
+ 
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    top: 1800px;
+    margin-left: -1220px;
+ 
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+ 
+ 
+}
+.knifes26{
+  position: relative;
+  display: inline-block;
+ 
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    top: 1800px;
+ 
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+ 
+ 
+}
+.knifes27{
+  position: relative;
+  display: inline-block;
+ 
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    top: 1800px;
+ 
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+ 
+ 
+}
+.knifes28{
+  position: relative;
+  display: inline-block;
+ 
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    top: 1800px;
+ 
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+ 
+ 
+}
+.smallawm{
+  width: 250px;
+  pointer-events: none;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.smallaka{
+  width: 250px;
+  pointer-events: none;
+  position: absolute;
+  top: 70px;
+  left: 20px;
+}
+.smallp350{
+  width: 130px;
+  pointer-events: none;
+  position: absolute;
+  top: 70px;
+  left: 60px;
+}
+.smallkerambit{
+  width: 450px;
+  pointer-events: none;
+  position: absolute;
+  top: -45px;
+  left: -80px;
+}
+.smallm9{
+  width: 420px;
+  pointer-events: none;
+  position: absolute;
+  top: -20px;
+  left: -80px;
+}
+.knifes1:hover{
+  transform: scale(1.05) rotate(3deg);
+}
+.knifes2:hover{
+  transform: scale(1.05) rotate(3deg);
+}
+.knifes3:hover{
+  transform: scale(1.05) rotate(3deg);
+}
+.knifes4:hover{
+  transform: scale(1.05) rotate(3deg);
+}
+.knifes5:hover{
+  transform: scale(1.05) rotate(3deg);
+}
+.knifes6:hover{
+  transform: scale(1.05) rotate(3deg);
+}
+.knifes7:hover{
+  transform: scale(1.05) rotate(3deg);
+}
+.knifes8:hover{
+  transform: scale(1.05) rotate(3deg);
+}
+.knifes9:hover{
+  transform: scale(1.05) rotate(3deg);
+}
+.knifes10:hover{
+  transform: scale(1.05) rotate(3deg);
+}
+.knifes11:hover{
+  transform: scale(1.05) rotate(3deg);
+}
+.knifes12:hover{
+  transform: scale(1.05) rotate(3deg);
+}
+.knifes13:hover{
+  transform: scale(1.05) rotate(3deg);
+}
+.knifes14:hover{
+  transform: scale(1.05) rotate(3deg);
+}
+.knifes15:hover{
+  transform: scale(1.05) rotate(3deg);
+}
+.knifes16:hover{
+  transform: scale(1.05) rotate(3deg);
+}
+.knifes17:hover{
+  transform: scale(1.05) rotate(3deg);
+}
+.knifes18:hover{
+  transform: scale(1.05) rotate(3deg);
+}
+.knifes19:hover{
+  transform: scale(1.05) rotate(3deg);
+}
+.knifes20:hover{
+  transform: scale(1.05) rotate(3deg);
+}
+.knifes21:hover{
+  transform: scale(1.05) rotate(3deg);
+}
+.knifes22:hover{
+  transform: scale(1.05) rotate(3deg);
+}
+.knifes23:hover{
+  transform: scale(1.05) rotate(3deg);
+}
+.knifes24:hover{
+  transform: scale(1.05) rotate(3deg);
+}
+.knifes25:hover{
+  transform: scale(1.05) rotate(3deg);
+}
+.knifes26:hover{
+  transform: scale(1.05) rotate(3deg);
+}
+.knifes27:hover{
+  transform: scale(1.05) rotate(3deg);
+}
+.knifes28:hover{
+  transform: scale(1.05) rotate(3deg);
+}
+.firstreviewName {
+  color: rgb(235, 235, 235);
+  font-family: Montserrat, sans-serif;
+  position: absolute;
+  margin-left: 135px;
+  top: 10px;
+  }
+  .img50{
+    position: absolute;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+    top: 15px;
+  }
+    
+  .secondreviewName {
+  color: rgb(235, 235, 235);
+  font-family: Montserrat, sans-serif;
+  position: absolute;
+  margin-left: 130px;
+  top: 30px;
+  }
+  .reviewFirst{
+    color: rgb(235, 235, 235);
+    font-family: Montserrat, sans-serif;
+    position: absolute;
+    margin-left: 40px;
+    top: 150px;
+    
+  }
+  .firstreview {
+    position: relative;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid rgb(48, 47, 66);
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    top: 130px;
+    margin-left: 300px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    opacity: 0; /* установка начальной прозрачности элемента */
+    animation: fadeIn 1s ease forwards; /* добавление анимации */
+    
+    
+    }
+    .r2review {
+      position: relative;
+      display: inline-block;
+      background-color: rgba(0, 0, 0, 0.1);
+      border: 1px solid rgb(48, 47, 66);
+      width: 300px;
+      height: 300px;
+      border-radius: 10px;
+      top: 130px;  
+      left: 20px;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+      opacity: 0; /* установка начальной прозрачности элемента */
+      animation: fadeIn 1s ease forwards; /* добавление анимации */
+      
+      
+      }
+      .r3review {
+        position: relative;
+        display: inline-block;
+        background-color: rgba(0, 0, 0, 0.1);
+        border: 1px solid rgb(48, 47, 66);
+        width: 300px;
+        height: 300px;
+        border-radius: 10px;
+        top: 130px;
+        left: 40px;
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+        opacity: 0; /* установка начальной прозрачности элемента */
+        animation: fadeIn 1s ease forwards; /* добавление анимации */
+        
+        
+        }
+        .r4review {
+          position: relative;
+          display: inline-block;
+          background-color: rgba(0, 0, 0, 0.1);
+          border: 1px solid rgb(48, 47, 66);
+          width: 300px;
+          height: 300px;
+          border-radius: 10px;
+          top: 130px;
+          left: 60px;
+          box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+          opacity: 0; /* установка начальной прозрачности элемента */
+          animation: fadeIn 1s ease forwards; /* добавление анимации */
+          
+          
+          }
+          .r5review {
+            position: relative;
+  display: inline-block;
+            background-color: rgba(0, 0, 0, 0.1);
+            border: 1px solid rgb(48, 47, 66);
+            width: 300px;
+            height: 300px;
+            border-radius: 10px;
+            top: 170px;
+            margin-left: 300px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+            opacity: 0; /* установка начальной прозрачности элемента */
+            animation: fadeIn 1s ease forwards; /* добавление анимации */
+            
+            }
+            .r6review {
+              position: relative;
+              display: inline-block;
+              background-color: rgba(0, 0, 0, 0.1);
+              border: 1px solid rgb(48, 47, 66);
+              width: 300px;
+              height: 300px;
+              border-radius: 10px;
+              top: 170px;
+              left: 20px;
+              box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+              opacity: 0; /* установка начальной прозрачности элемента */
+              animation: fadeIn 1s ease forwards; /* добавление анимации */
+             
+              }
+.r7review
+{
+  position: relative;
+              display: inline-block;
+              background-color: rgba(0, 0, 0, 0.1);
+              border: 1px solid rgb(48, 47, 66);
+              width: 300px;
+              height: 300px;
+              border-radius: 10px;
+              top: 170px;
+              left: 40px;
+              box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+              opacity: 0; /* установка начальной прозрачности элемента */
+              animation: fadeIn 1s ease forwards; /* добавление анимации */
+              
+}
+.r8review
+{
+  position: relative;
+              display: inline-block;
+              background-color: rgba(0, 0, 0, 0.1);
+              border: 1px solid rgb(48, 47, 66);
+              width: 300px;
+              height: 300px;
+              border-radius: 10px;
+             top: 170px;
+              left: 60px;
+              box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+              opacity: 0; /* установка начальной прозрачности элемента */
+              animation: fadeIn 1s ease forwards; /* добавление анимации */
+              
+}
+.r9review
+{
+  position: relative;
+              display: inline-block;
+              background-color: rgba(0, 0, 0, 0.1);
+              border: 1px solid rgb(48, 47, 66);
+              width: 300px;
+              height: 300px;
+              border-radius: 10px;
+              top: 210px;
+              margin-left: 300px;
+              
+              box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+              opacity: 0; /* установка начальной прозрачности элемента */
+              animation: fadeIn 1s ease forwards; /* добавление анимации */
+              
+}
+.r10review
+{
+  position: relative;
+              display: inline-block;
+              background-color: rgba(0, 0, 0, 0.1);
+              border: 1px solid rgb(48, 47, 66);
+              width: 300px;
+              height: 300px;
+              border-radius: 10px;
+              top: 210px;
+              left: 20px;
+              box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+              opacity: 0; /* установка начальной прозрачности элемента */
+              animation: fadeIn 1s ease forwards; /* добавление анимации */
+              
+}
+.r11review
+{
+  position: relative;
+              display: inline-block;
+              background-color: rgba(0, 0, 0, 0.1);
+              border: 1px solid rgb(48, 47, 66);
+              width: 300px;
+              height: 300px;
+              border-radius: 10px;
+              top: 210px;
+              left: 40px;
+              box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+              opacity: 0; /* установка начальной прозрачности элемента */
+              animation: fadeIn 1s ease forwards; /* добавление анимации */
+              
+}
+.r12review
+{
+  position: relative;
+              display: inline-block;
+              background-color: rgba(0, 0, 0, 0.1);
+              border: 1px solid rgb(48, 47, 66);
+              width: 300px;
+              height: 300px;
+              border-radius: 10px;
+              top: 210px;
+              left: 60px;
+              box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+              opacity: 0; /* установка начальной прозрачности элемента */
+              animation: fadeIn 1s ease forwards; /* добавление анимации */
+              
+}
+
+
+
+.r13review
+{
+  position: relative;
+              display: inline-block;
+              background-color: rgba(0, 0, 0, 0.1);
+              border: 1px solid rgb(48, 47, 66);
+              width: 300px;
+              height: 300px;
+              border-radius: 10px;
+              top: 250px;
+              margin-left: 300px;
+              
+              box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+              opacity: 0; /* установка начальной прозрачности элемента */
+              animation: fadeIn 1s ease forwards; /* добавление анимации */
+              
+}
+.r14review
+{
+  position: relative;
+              display: inline-block;
+              background-color: rgba(0, 0, 0, 0.1);
+              border: 1px solid rgb(48, 47, 66);
+              width: 300px;
+              height: 300px;
+              border-radius: 10px;
+              top: 250px;
+              left: 20px;
+              box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+              opacity: 0; /* установка начальной прозрачности элемента */
+              animation: fadeIn 1s ease forwards; /* добавление анимации */
+              
+}
+.r15review
+{
+  position: relative;
+              display: inline-block;
+              background-color: rgba(0, 0, 0, 0.1);
+              border: 1px solid rgb(48, 47, 66);
+              width: 300px;
+              height: 300px;
+              border-radius: 10px;
+              top: 250px;
+              left: 40px;
+              box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+              opacity: 0; /* установка начальной прозрачности элемента */
+              animation: fadeIn 1s ease forwards; /* добавление анимации */
+              
+}
+.r16review
+{
+  position: relative;
+              display: inline-block;
+              background-color: rgba(0, 0, 0, 0.1);
+              border: 1px solid rgb(48, 47, 66);
+              width: 300px;
+              height: 300px;
+              border-radius: 10px;
+              top: 250px;
+              left: 60px;
+              box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+              opacity: 0; /* установка начальной прозрачности элемента */
+              animation: fadeIn 1s ease forwards; /* добавление анимации */
+              
+}
+
+
+
+.r17review
+{
+  position: relative;
+              display: inline-block;
+              background-color: rgba(0, 0, 0, 0.1);
+              border: 1px solid rgb(48, 47, 66);
+              width: 300px;
+              height: 300px;
+              border-radius: 10px;
+              top: 290px;
+              margin-left: 300px;
+              
+              box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+              opacity: 0; /* установка начальной прозрачности элемента */
+              animation: fadeIn 1s ease forwards; /* добавление анимации */
+              
+}
+.r18review
+{
+  position: relative;
+              display: inline-block;
+              background-color: rgba(0, 0, 0, 0.1);
+              border: 1px solid rgb(48, 47, 66);
+              width: 300px;
+              height: 300px;
+              border-radius: 10px;
+              top: 290px;
+              left: 20px;
+              box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+              opacity: 0; /* установка начальной прозрачности элемента */
+              animation: fadeIn 1s ease forwards; /* добавление анимации */
+              
+}
+.r19review
+{
+  position: relative;
+              display: inline-block;
+              background-color: rgba(0, 0, 0, 0.1);
+              border: 1px solid rgb(48, 47, 66);
+              width: 300px;
+              height: 300px;
+              border-radius: 10px;
+              top: 290px;
+              left: 40px;
+              box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+              opacity: 0; /* установка начальной прозрачности элемента */
+              animation: fadeIn 1s ease forwards; /* добавление анимации */
+              
+}
+.r20review
+{
+  position: relative;
+              display: inline-block;
+              background-color: rgba(0, 0, 0, 0.1);
+              border: 1px solid rgb(48, 47, 66);
+              width: 300px;
+              height: 300px;
+              border-radius: 10px;
+              top: 290px;
+              left: 60px;
+              box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+              opacity: 0; /* установка начальной прозрачности элемента */
+              animation: fadeIn 1s ease forwards; /* добавление анимации */
+              
+}
+
+
+.r21review
+{
+  position: relative;
+              display: inline-block;
+              background-color: rgba(0, 0, 0, 0.1);
+              border: 1px solid rgb(48, 47, 66);
+              width: 300px;
+              height: 300px;
+              border-radius: 10px;
+              top: 330px;
+              margin-left: 300px;
+              
+              box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+              opacity: 0; /* установка начальной прозрачности элемента */
+              animation: fadeIn 1s ease forwards; /* добавление анимации */
+              
+}
+.r22review
+{
+  position: relative;
+              display: inline-block;
+              background-color: rgba(0, 0, 0, 0.1);
+              border: 1px solid rgb(48, 47, 66);
+              width: 300px;
+              height: 300px;
+              border-radius: 10px;
+              top: 330px;
+              left: 20px;
+              box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+              opacity: 0; /* установка начальной прозрачности элемента */
+              animation: fadeIn 1s ease forwards; /* добавление анимации */
+              
+}
+.r23review
+{
+  position: relative;
+              display: inline-block;
+              background-color: rgba(0, 0, 0, 0.1);
+              border: 1px solid rgb(48, 47, 66);
+              width: 300px;
+              height: 300px;
+              border-radius: 10px;
+              top: 330px;
+              left: 40px;
+              box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+              opacity: 0; /* установка начальной прозрачности элемента */
+              animation: fadeIn 1s ease forwards; /* добавление анимации */
+              
+}
+.r24review
+{
+  position: relative;
+              display: inline-block;
+              background-color: rgba(0, 0, 0, 0.1);
+              border: 1px solid rgb(48, 47, 66);
+              width: 300px;
+              height: 300px;
+              border-radius: 10px;
+              top: 330px;
+              left: 60px;
+              box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+              opacity: 0; /* установка начальной прозрачности элемента */
+              animation: fadeIn 1s ease forwards; /* добавление анимации */
+              
+}
+
+
+
+.r25review
+{
+  position: relative;
+              display: inline-block;
+              background-color: rgba(0, 0, 0, 0.1);
+              border: 1px solid rgb(48, 47, 66);
+              width: 300px;
+              height: 300px;
+              border-radius: 10px;
+              top: 370px;
+              margin-left: 300px;
+              
+              box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+              opacity: 0; /* установка начальной прозрачности элемента */
+              animation: fadeIn 1s ease forwards; /* добавление анимации */
+              
+}
+.r26review
+{
+  position: relative;
+              display: inline-block;
+              background-color: rgba(0, 0, 0, 0.1);
+              border: 1px solid rgb(48, 47, 66);
+              width: 300px;
+              height: 300px;
+              border-radius: 10px;
+              top: 370px;
+              left: 20px;
+              box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+              opacity: 0; /* установка начальной прозрачности элемента */
+              animation: fadeIn 1s ease forwards; /* добавление анимации */
+              
+}
+.r27review
+{
+  position: relative;
+              display: inline-block;
+              background-color: rgba(0, 0, 0, 0.1);
+              border: 1px solid rgb(48, 47, 66);
+              width: 300px;
+              height: 300px;
+              border-radius: 10px;
+              top: 370px;
+              left: 40px;
+              box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+              opacity: 0; /* установка начальной прозрачности элемента */
+              animation: fadeIn 1s ease forwards; /* добавление анимации */
+              
+}
+.r28review
+{
+  position: relative;
+              display: inline-block;
+              background-color: rgba(0, 0, 0, 0.1);
+              border: 1px solid rgb(48, 47, 66);
+              width: 300px;
+              height: 300px;
+              border-radius: 10px;
+              top: 370px;
+              left: 60px;
+              box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+              opacity: 0; /* установка начальной прозрачности элемента */
+              animation: fadeIn 1s ease forwards; /* добавление анимации */
+              
+}
+
+.firstreviewName1 {
+  color: rgb(235, 235, 235);
+  font-family: Montserrat, sans-serif;
+  position: absolute;
+  margin-left: 150px;
+  top: 10px;
+  }
+  .firstreviewName2 {
+    color: rgb(235, 235, 235);
+    font-family: Montserrat, sans-serif;
+    position: absolute;
+    margin-left: 150px;
+    top: 10px;
+    }
+    .firstreviewName3 {
+      color: rgb(235, 235, 235);
+      font-family: Montserrat, sans-serif;
+      position: absolute;
+      margin-left: 115px;
+      top: 10px;
+      }
+      .firstreviewName4 {
+        color: rgb(235, 235, 235);
+        font-family: Montserrat, sans-serif;
+        position: absolute;
+        margin-left: 115px;
+        top: 10px;
+        }
+        .firstreviewName5 {
+          color: rgb(235, 235, 235);
+          font-family: Montserrat, sans-serif;
+          position: absolute;
+          margin-left: 125px;
+          top: 10px;
+          }
+          .firstreviewName6 {
+            color: rgb(235, 235, 235);
+            font-family: Montserrat, sans-serif;
+            position: absolute;
+            margin-left: 115px;
+            top: 10px;
+            }
+            .firstreviewName7 {
+              color: rgb(235, 235, 235);
+              font-family: Montserrat, sans-serif;
+              position: absolute;
+              margin-left: 115px;
+              top: 10px;
+              }
+              .firstreviewName8 {
+                color: rgb(235, 235, 235);
+                font-family: Montserrat, sans-serif;
+                position: absolute;
+                margin-left: 150px;
+                top: 10px;
+                }
+                .firstreviewName9 {
+                  color: rgb(235, 235, 235);
+                  font-family: Montserrat, sans-serif;
+                  position: absolute;
+                  margin-left: 120px;
+                  top: 10px;
+                  }
+                  .firstreviewName10 {
+                    color: rgb(235, 235, 235);
+                    font-family: Montserrat, sans-serif;
+                    position: absolute;
+                    margin-left: 145px;
+                    top: 10px;
+                    }
+                    .firstreviewName11 {
+                      color: rgb(235, 235, 235);
+                      font-family: Montserrat, sans-serif;
+                      position: absolute;
+                      margin-left: 120px;
+                      top: 10px;
+                      }
+                      .firstreviewName12{
+                        color: rgb(235, 235, 235);
+                        font-family: Montserrat, sans-serif;
+                        position: absolute;
+                        margin-left: 140px;
+                        top: 10px;
+                        }
+                        .firstreviewName13 {
+                          color: rgb(235, 235, 235);
+                          font-family: Montserrat, sans-serif;
+                          position: absolute;
+                          margin-left: 115px;
+                          top: 10px;
+                          }
+                          .firstreviewName14 {
+                            color: rgb(235, 235, 235);
+                            font-family: Montserrat, sans-serif;
+                            position: absolute;
+                            margin-left: 115px;
+                            top: 10px;
+                            }
+                            .firstreviewName15 {
+                              color: rgb(235, 235, 235);
+                              font-family: Montserrat, sans-serif;
+                              position: absolute;
+                              margin-left: 145px;
+                              top: 10px;
+                              }
+                              .firstreviewName16 {
+                                color: rgb(235, 235, 235);
+                                font-family: Montserrat, sans-serif;
+                                position: absolute;
+                                margin-left: 145px;
+                                top: 10px;
+                                }
+                                .firstreviewName17 {
+                                  color: rgb(235, 235, 235);
+                                  font-family: Montserrat, sans-serif;
+                                  position: absolute;
+                                  margin-left: 140px;
+                                  top: 10px;
+                                  }
+                                  .firstreviewName18 {
+                                    color: rgb(235, 235, 235);
+                                    font-family: Montserrat, sans-serif;
+                                    position: absolute;
+                                    margin-left: 145px;
+                                    top: 10px;
+                                    }
+                                    .firstreviewName19 {
+                                      color: rgb(235, 235, 235);
+                                      font-family: Montserrat, sans-serif;
+                                      position: absolute;
+                                      margin-left: 145px;
+                                      top: 10px;
+                                      }
+                                      .firstreviewName20 {
+                                        color: rgb(235, 235, 235);
+                                        font-family: Montserrat, sans-serif;
+                                        position: absolute;
+                                        margin-left: 115px;
+                                        top: 10px;
+                                        }
+                                        .warrantyfeed {
+                                          color: #ffba00;
+                                          font-family: Montserrat, sans-serif;
+                                          font-weight: 600;
+                                          position: absolute;
+                                          margin-left: 870px;
+                                          top: 150px;
+                                          font-size: 30px;
+                                          transition: color 0.5s ease-in-out, text-shadow 0.5s ease-in-out; /* добавляем плавную анимацию */
+                                        }
+                                        .secondreview {
+                                          animation-delay: 0.3s;
+                                          }
+                                          
+                                          .thirdreview {
+                                          animation-delay: 0.6s;
+                                          }
+                                          .fourthreview {
+                                          animation-delay: 0.9s;
+                                          }
+                                          
+                                          .fifththdreview {
+                                          animation-delay: 1.2s;
+                                          }
+                                          .sixthreview {
+                                            animation-delay: 1.5s;
+                                            }
+}
+                                            
+/* телефоны */
+@media screen and (max-width: 480px) {
+  body {
+    background-image: url("1.jpg");
+    background-size: cover;
+  background-attachment: fixed;
+  
+  }
+  .burger {
+    display: block;
+    width: 30px;
+    height: 20px;
+    position: relative;
+    cursor: pointer;
+    
+  }
+  
+  .burger span {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #ffba00;
+    transition: transform 0.3s ease-in-out;
+    left: 400px;
+    margin-top: -35px;
+  }
+  
+  .burger span:nth-child(1) {
+    top: 0;
+    
+  }
+  
+  .burger span:nth-child(2) {
+    top: 50%;
+    transform: translateY(-50%);
+    
+  }
+  
+  .burger span:nth-child(3) {
+    top: -10px;
+    
+  }
+  
+  #burger-checkbox {
+    display: none;
+  }
+  
+  #burger-checkbox:checked ~ .menu {
+    display: block;
+  }
+  
+  .menu {
+    display: none;
+    position: fixed;
+    
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    background-color: transparent;
+  }
+
+  .main{
+    position: absolute;
+    color: white;
+    margin-left: 30px;
+    top: 35px;
+    font-family: Montserrat,sans-serif;
+    
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+  .support{
+    position: absolute;
+    color: white;
+    margin-left: 105px;
+    top: 35px;
+    
+    font-family: Montserrat,sans-serif;
+    font-weight: 550;
+    font-size: 15px;
+  }
+
+  .guarantees{
+    position: absolute;
+    color: white;
+    margin-left: 200px;
+    top: 35px;
+
+    font-family: Montserrat,sans-serif;
+    font-weight: 550;
+    font-size: 15px;
+  }
+
+  .howbuy{
+    position: absolute;
+    color: white;
+    margin-left: 280px;
+    top: 35px;
+    font-family: Montserrat,sans-serif;
+    font-weight: 550;
+    font-size: 15px;
+  }
+  .feed{
+    position: absolute;
+    color: #ffba00;
+    margin-left: 370px;
+    top: 35px;
+
+    font-family: Montserrat,sans-serif;
+    font-weight: 650;
+    font-size: 15px;
+  }
+
+  
+
+  
+
+.warrantyf{
+  color: #ffba00;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    position: absolute;
+    margin-left: 800px;
+    top: 150px;
+    font-size: 30px;
+}
+.govno {
+  margin-left: 40px;
+  color: #ffc131;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 50000;
+  transition: color 0.5s ease-in-out, text-shadow 0.5s ease-in-out;
+  pointer-events: none; /* добавляем свойство pointer-events */
+}
+
+#animated-container {
+  display: inline-block;
+}
+
+#animated-container #animated {
+  color: #ffba00;
+  transition: color 0.5s ease;
+  
+}
+
+#animated-container:not(.header):hover #animated {
+  color: white;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+  
+
+  .warranty {
+    color: #ffba00;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    position: absolute;
+    margin-left: 740px;
+    top: 150px;
+    font-size: 30px;
+    transition: color 0.5s ease-in-out, text-shadow 0.5s ease-in-out; /* добавляем плавную анимацию */
+  }
+  
+  .warranty:hover {
+    color: #ffffff; /* меняем цвет текста на белый */
+    text-shadow: 0 0 10px #ffffff; /* добавляем тень белого цвета */
+  }
+    .EmailLabel {
+    position: absolute;
+    top:200px;
+    margin-left: 820px;
+    color: #e3e3e3;
+    font-family: Montserrat,sans-serif;
+    font-weight: 650;
+    
+    }
+    .EmailInput{
+    padding: 10px;
+    position: absolute;
+    margin-left: 770px;
+    margin-top: 360px;
+    width: 275px;
+    height: 50px;
+    background-color: transparent;
+    border: 2px solid rgb(48, 47, 66);
+    border-radius: 10px;
+    color: rgb(212, 216, 245);
+    background-color: rgba(0, 0, 0, 0.3);
+    font-family: Montserrat,sans-serif;
+    font-weight: 390;
+    
+    }
+    .NameLabel {
+    position: absolute;
+    top:325px;
+    margin-left: 830px;
+    color: #e3e3e3;
+    font-family: Montserrat,sans-serif;
+    font-weight: 650;
+    
+    }
+    .NameInput{
+    padding: 10px;
+    position: absolute;
+    margin-left: 770px;
+    margin-top: 230px;
+    width: 275px;
+    height: 50px;
+    background-color: transparent; /* делаем фон прозрачным */
+    border: 2px solid rgb(48, 47, 66); /* добавляем границу шириной 2 пикселя и цветом красный */
+    border-radius: 10px;
+    color: rgb(212, 216, 245);
+    background-color: rgba(0, 0, 0, 0.3);
+    font-family: Montserrat,sans-serif;
+    font-weight: 390;
+    }
+    .ProblemLabel{
+    position: absolute;
+    top:450px;
+    margin-left: 830px;
+    color: #e3e3e3;
+    font-family: Montserrat,sans-serif;
+    font-weight: 650;
+    
+    }
+    .ProblemInput{
+    padding: 10px;
+    position: absolute;
+    margin-left: 570px;
+    margin-top: 480px;
+    width: 700px;
+    height: 150px;
+    background-color: transparent;
+    border: 2px solid rgb(48, 47, 66);
+    border-radius: 10px;
+    color: rgb(212, 216, 245);
+    background-color: rgba(0, 0, 0, 0.3);
+    font-family: Montserrat,sans-serif;
+    font-weight: 390;
+    
+    outline: none;
+    
+    }
+    .sprtBtn{
+    position: absolute;
+    margin-left: 870px;
+    margin-top: 700px;
+    background-color: transparent;
+    border: 2px solid rgb(48, 47, 66);
+    width: 120px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    
+    }
+
+    .sprtBtn:hover {
+      box-shadow: 0px 0px 10px rgb(107, 105, 172);
+    }
+
+
+  .firstgur {
+    position: absolute;
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-weight: 350;
+    padding: 10px;
+    line-height: 2;
+    font-size: 15px;
+    top: 70px;
+    margin-left: 80px;
+    
+}
+
+.windowinsupport {
+  opacity: 1; /* устанавливаем начальную прозрачность элемента */
+  transition: opacity 1s ease-in-out; /* добавляем анимацию */
+}
+
+.windowinsupport.show {
+  opacity: 0; /* устанавливаем полную непрозрачность элемента */
+}
+
+
+  .silka{
+    color: #ffba00;
+    font-family: Montserrat,sans-serif;
+    font-weight: 600;
+  }
+
+  .firstreview {
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid rgb(48, 47, 66);
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 33px;
+    margin-left: 300px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    opacity: 0; /* установка начальной прозрачности элемента */
+    animation: fadeIn 1s ease forwards; /* добавление анимации */
+    
+    }
+    
+  @keyframes fadeIn {
+    from {
+      opacity: -2; /* начальное состояние анимации */
+    }
+    to {
+      opacity: 3; /* конечное состояние анимации */
+    }
+  }
+
+  input:focus {
+    outline: none;
+  }
+
+  .dmca {
+    position: absolute;
+    margin-left: 866px;
+    top: 800px;
+  }
+  
+
+
+
+  @keyframes fadeIn {
+    from {
+    opacity: 0;
+    transform: translateY(50px);
+    }
+    to {
+    opacity: 1;
+    transform: translateY(0);
+    }
+    }
+
+    
+    
+    [class^="review"] {
+      animation: fadeIn 1s ease forwards;
+      opacity: 0;
+    }
+    
+      .ponos {
+        opacity: 0; /* устанавливаем начальное значение прозрачности */
+        animation: fadeIn 1s ease-in-out forwards; /* добавляем анимацию появления */
+        width: 100%;
+        
+      }
+      
+      @keyframes fadeIn {
+        from {
+          opacity: 0; /* начальное значение прозрачности 0 */
+        }
+        to {
+          opacity: 1; /* конечное значение прозрачности 1 */
+        }
+      }
+
+
+      .sellday {
+        color: #ffba00;
+        font-family: Montserrat, sans-serif;
+        font-weight: 600;
+        position: absolute;
+        margin-left: 800px;
+        top: 150px;
+        font-size: 30px;
+        transition: color 0.5s ease-in-out, text-shadow 0.5s ease-in-out; /* добавляем плавную анимацию */
+      }
+      
+      .sellday:hover {
+        color: #ffffff; /* меняем цвет текста на белый */
+    text-shadow: 0 0 10px #ffffff; /* добавляем тень белого цвета */
+      }
+
+
+      .productDay {
+        border: 2px solid rgb(48, 47, 66);
+        width: 300px;
+        height: 250px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+        position: absolute;
+        opacity: 0;
+        animation: fadeIn 1s ease-in-out forwards; /* добавляем свойство forwards */
+      }
+      
+      .firstProductDay {
+        margin-top: 150px;
+        margin-left: 350px;
+        animation-delay: 0.2s;
+      }
+      
+      .secondProductDay {
+        bottom: 475px;
+        margin-left: 750px;
+        animation-delay: 0.5s;
+      }
+      
+      .thirdProductDay {
+        bottom: 475px;
+        margin-left: 1150px;
+        animation-delay: 0.9s;
+      }
+      
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      
+
+.selectGame{
+  color: #ffba00;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    position: absolute;
+    margin-left: 785px;
+    top: 510px;
+    font-size: 30px;
+    transition: color 0.5s ease-in-out, text-shadow 0.5s ease-in-out; /* добавляем плавную анимацию */
+  
+}
+
+.fade-in {
+  animation-name: fadeInDelayed;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+.selectGame:hover {
+  color: #ffffff; /* меняем цвет текста на белый */
+text-shadow: 0 0 10px #ffffff; /* добавляем тень белого цвета */
+}
+
+.bsDiv, .stdfDiv, .pbgDiv {
+  width: 300px;
+  height: 250px;
+  border-radius: 10px;
+  top: 600px;
+  position: absolute;
+  opacity: 0;
+  transition: transform 0.3s ease-in-out;
+}
+
+.bsDiv {
+  margin-left: 350px;
+  animation-duration: 1s;
+  animation-delay: 0.2s;
+}
+
+.stdfDiv {
+  margin-left: 750px;
+  animation-duration: 1s;
+  animation-delay: 0.5s;
+}
+
+.pbgDiv {
+  margin-left: 1150px;
+  animation-duration: 1s;
+  animation-delay: 0.9s;
+}
+
+.bsDiv:hover, .stdfDiv:hover, .pbgDiv:hover {
+  transform: rotate(5deg) scale(1.1);
+}
+.fade-in-delayed {
+  animation-name: fadeInDelayed;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInDelayed {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+@keyframes fadeInDelayed {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.bsLogo{
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  left: 30px;
+}
+
+.standoffLogo {
+  width: 620px;
+  height: 350px;
+  position: absolute;
+  left: -160px;
+  top: -50px;
+  pointer-events: none;
+}
+
+.stdDiv {
+  position: relative;
+}
+
+.stdDiv:hover .standoffLogo {
+  transform: rotate(2deg) scale(1.1);
+}
+
+.stdDiv:hover {
+  transform: rotate(2deg) scale(1.1);
+}
+
+.pubgLogo {
+  width: 400px;
+  height: 200px;
+  position: absolute;
+  top: 20px;
+  left: -30px;
+}
+
+.twogems{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 90px;
+    margin-left: 300px;
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+}
+
+.twogems:hover {
+  transform: scale(1.05) rotate(3deg);
+}
+
+.twogems {
+  position: relative;
+  display: inline-block;
+}
+
+.smallgems {
+  width: 220px;
+  pointer-events: none;
+  position: absolute;
+  left: 15px;
+}
+
+.smallgemscount {
+  font-family: Montserrat,sans-serif;
+    font-weight: 700;
+    color: white;
+    position: absolute;
+    pointer-events: none;
+    position: absolute;
+    bottom: 85px;
+    right: 180px;
+}
+
+.promocode{
+  font-family: Montserrat,sans-serif;
+    font-weight: 350;
+    color: grey;
+    font-size: 15px;
+    position: absolute;
+    pointer-events: none;
+    position: absolute;
+    bottom: 68px;
+    right: 201px;
+}
+
+.buyBtn {
+  outline: none;
+  border: none;
+  background-color:  #ffba00;
+  font-family: Montserrat,sans-serif;
+  font-weight: 610;
+  width: 110px;
+  height: 35px;
+  position: absolute;
+  font-size: 17px;
+  bottom: 21px;
+  right: 170px;
+}
+
+.buyBtn:hover {
+  box-shadow: 0 0 5px 3px rgb(222, 168, 42);
+}
+
+.gemsPriceOne {
+  font-family: Montserrat,sans-serif;
+    font-weight: 660;
+    color: white;
+    position: absolute;
+    pointer-events: none;
+    position: absolute;
+    bottom: 25px;
+    right: 68px;
+    font-size: 23px;
+}
+
+.discountBsFirst {
+  font-family: Montserrat,sans-serif;
+    font-weight: 400;
+    color: grey;
+    font-size: 14px;
+    position: absolute;
+    pointer-events: none;
+    position: absolute;
+    bottom: 50px;
+    right: 9px;
+    text-decoration: line-through;
+}
+
+.threegems {
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 90px;
+    margin-left: 300px;
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+    left: -240px;
+}
+
+
+.threegems:hover {
+  transform: scale(1.05) rotate(3deg);
+}
+
+.threegems {
+  position: relative;
+  display: inline-block;
+}
+
+.mediumgems {
+  width: 220px;
+  pointer-events: none;
+  position: absolute;
+  left: 15px;
+  top: -30px;
+}
+
+.fourgames {
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 90px;
+    margin-left: 300px;
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+    left: -490px;
+}
+
+
+.fourgames:hover {
+  transform: scale(1.05) rotate(3deg);
+}
+
+.fourgames {
+  position: relative;
+  display: inline-block;
+}
+
+
+.fivegames {
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    top: -300px;
+    margin-left: 500px;
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+    left: 850px;
+}
+
+
+.fivegames:hover {
+  transform: scale(1.05) rotate(3deg);
+}
+
+.fivegames {
+  position: relative;
+  display: inline-block;
+}
+
+.voronSell {
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    position: absolute;
+    right: 510px;
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+    bottom: -60px;
+}
+
+
+.voronSell:hover {
+  transform: scale(1.05) rotate(3deg);
+}
+
+.voronSell {
+  position: relative;
+  display: inline-block;
+}
+
+.crowpng{
+  width: 160px;
+  pointer-events: none;
+  position: absolute;
+  left: 35px;
+  top: -80px;
+}
+
+.heroname {
+  font-family: Montserrat,sans-serif;
+    font-weight: 700;
+    color: white;
+    position: absolute;
+    pointer-events: none;
+    position: absolute;
+    bottom: 85px;
+    right: 198px;
+}
+
+.heroes {
+  font-family: Montserrat,sans-serif;
+    font-weight: 350;
+    color: grey;
+    font-size: 15px;
+    position: absolute;
+    pointer-events: none;
+    position: absolute;
+    bottom: 68px;
+    right: 210px;
+}
+
+
+.leonSell {
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    position: absolute;
+    right: 450px;
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+    bottom: -60px;
+}
+
+
+.leonSell:hover {
+  transform: scale(1.05) rotate(3deg);
+}
+
+.leonSell {
+  position: relative;
+  display: inline-block;
+}
+
+.leonpng{
+  width: 200px;
+  pointer-events: none;
+  position: absolute;
+  left: 35px;
+  top: -80px;
+}
+
+.heronameLeon {
+  font-family: Montserrat,sans-serif;
+    font-weight: 700;
+    color: white;
+    position: absolute;
+    pointer-events: none;
+    position: absolute;
+    bottom: 85px;
+    right: 206px;
+}
+
+.sandySell {
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    position: absolute;
+    right: 400px;
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+    bottom: -60px;
+}
+
+
+.sandySell:hover {
+  transform: scale(1.05) rotate(3deg);
+}
+
+.sandySell {
+  position: relative;
+  display: inline-block;
+}
+
+.sandypng{
+  width: 170px;
+  pointer-events: none;
+  position: absolute;
+  left: 35px;
+  top: -80px;
+}
+
+
+.spikeSell {
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    position: absolute;
+    left: 1350px;
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+    bottom: 235px;
+}
+
+
+.spikeSell:hover {
+  transform: scale(1.05) rotate(3deg);
+}
+
+.spikeSell {
+  position: relative;
+  display: inline-block;
+}
+
+.spikepng{
+  width: 290px;
+  pointer-events: none;
+  position: absolute;
+  left: -29px;
+  top: -70px;
+}
+
+.maxSell {
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    position: absolute;
+    left: 0px;
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+    bottom: -150px;
+}
+
+
+.maxSell:hover {
+  transform: scale(1.05) rotate(3deg);
+}
+
+.maxSell {
+  position: relative;
+  display: inline-block;
+}
+
+.maxpng {
+  width: 160px;
+  pointer-events: none;
+  position: absolute;
+  left: 65px;
+  top: -100px;
+}
+
+.beaSell {
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    position: absolute;
+    left: 35px;
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+    bottom: -150px;
+}
+
+
+.beaSell:hover {
+  transform: scale(1.05) rotate(3deg);
+}
+
+.beaSell {
+  position: relative;
+  display: inline-block;
+}
+
+.heronameBea {
+  font-family: Montserrat,sans-serif;
+    font-weight: 700;
+    color: white;
+    position: absolute;
+    pointer-events: none;
+    position: absolute;
+    bottom: 85px;
+    right: 215px;
+}
+
+.beapng {
+  width: 275px;
+  pointer-events: none;
+  position: absolute;
+  left: 0px;
+  top: -100px;
+}
+
+
+.amberSell {
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    position: absolute;
+    left: 85px;
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+    bottom: -150px;
+}
+
+
+.amberSell:hover {
+  transform: scale(1.05) rotate(3deg);
+}
+
+.amberSell {
+  position: relative;
+  display: inline-block;
+}
+
+.amberpng {
+  width: 320px;
+  pointer-events: none;
+  position: absolute;
+  left: 0px;
+  top: -120px;
+}
+
+.heronameAmber{
+  font-family: Montserrat,sans-serif;
+    font-weight: 700;
+    color: white;
+    position: absolute;
+    pointer-events: none;
+    position: absolute;
+    bottom: 85px;
+    right: 200px;
+}
+
+.megSell {
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    position: absolute;
+    left: 135px;
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+    bottom: -150px;
+}
+
+
+.megSell:hover {
+  transform: scale(1.05) rotate(3deg);
+}
+
+.megSell {
+  position: relative;
+  display: inline-block;
+}
+
+.megpng {
+  width: 200px;
+  pointer-events: none;
+  position: absolute;
+  left: 20px;
+  top: -90px;
+}
+
+.chesterSell {
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    position: absolute;
+    left: -1200px;
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+    bottom: -550px;
+}
+
+
+.chesterSell:hover {
+  transform: scale(1.05) rotate(3deg);
+}
+
+.chesterSell {
+  position: relative;
+  display: inline-block;
+}
+
+.heroesCh{
+  font-family: Montserrat,sans-serif;
+    font-weight: 350;
+    color: grey;
+    font-size: 15px;
+    position: absolute;
+    pointer-events: none;
+    position: absolute;
+    bottom: 68px;
+    right: 217px;
+}
+
+.chesterpng {
+  width: 170px;
+  pointer-events: none;
+  position: absolute;
+  left: 90px;
+  top: -150px;
+}
+
+.mortisSell {
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    position: absolute;
+    left: 650px;
+    top: 250px;
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+}
+
+
+.mortisSell:hover {
+  transform: scale(1.05) rotate(3deg);
+}
+
+.mortisSell {
+  position: relative;
+  display: inline-block;
+}
+
+.mortispng {
+  width: 310px;
+  pointer-events: none;
+  position: absolute;
+  left: -5px;
+  bottom: 100px;
+}
+
+.kordelSell {
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    position: absolute;
+    left: 690px;
+    top: 250px;
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+}
+
+
+.kordelSell:hover {
+  transform: scale(1.05) rotate(3deg);
+}
+
+.kordelSell {
+  position: relative;
+  display: inline-block;
+}
+
+.heronameKord {
+  font-family: Montserrat,sans-serif;
+    font-weight: 700;
+    color: white;
+    position: absolute;
+    pointer-events: none;
+    position: absolute;
+    bottom: 85px;
+    right: 185px;
+}
+
+.kordelpng {
+  width: 330px;
+  pointer-events: none;
+  position: absolute;
+  left: -5px;
+  bottom: 120px;
+}
+
+.eshSell {
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    position: absolute;
+    left: 750px;
+    top: 250px;
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+}
+
+
+.eshSell:hover {
+  transform: scale(1.05) rotate(3deg);
+}
+
+.eshSell {
+  position: relative;
+  display: inline-block;
+}
+
+.heronameesh {
+  font-family: Montserrat,sans-serif;
+    font-weight: 700;
+    color: white;
+    position: absolute;
+    pointer-events: none;
+    position: absolute;
+    bottom: 85px;
+    right: 225px;
+}
+
+.firstgem {
+  padding: 10px;
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 60px;
+    width: 1100px;
+    height: 1100px;
+    background-color: transparent;
+    border: 2px solid rgb(48, 47, 66);
+    border-radius: 10px;
+    color: rgb(212, 216, 245);
+    background-color: rgba(0, 0, 0, 0.3);
+    font-family: Montserrat,sans-serif;
+    font-weight: 390;
+    box-shadow: 0 0 30px 3px rgb(81, 232, 91);
+    outline: none;
+}
+
+.firstgempng {
+  position: absolute;
+  width: 350px;
+  left: 370px;
+  top: 120px;
+}
+
+.firstgemcount {
+  font-family: Montserrat,sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    color: white;
+    position: absolute;
+    pointer-events: none;
+    position: absolute;
+    bottom: 650px;
+    right: 500px;
+}
+
+.firstgempromocode {
+  font-family: Montserrat,sans-serif;
+    font-weight: 350;
+    color: grey;
+    font-size: 15px;
+    position: absolute;
+    pointer-events: none;
+    position: absolute;
+    bottom: 630px;
+    right: 525px;
+}
+
+.firstgemsprice {
+  font-family: Montserrat,sans-serif;
+    font-weight: 660;
+    color: white;
+    position: absolute;
+    pointer-events: none;
+    position: absolute;
+    bottom: 600px;
+    right: 515px;
+    font-size: 23px;
+}
+
+.firstgemdiscount {
+  font-family: Montserrat,sans-serif;
+    font-weight: 400;
+    color: grey;
+    font-size: 14px;
+    position: absolute;
+    pointer-events: none;
+    position: absolute;
+    bottom: 580px;
+    right: 535px;
+    text-decoration: line-through;
+}
+
+.firstgemBuyBtn {
+  outline: none;
+  border: none;
+  background-color:  #ffba00;
+  font-family: Montserrat,sans-serif;
+  font-weight: 610;
+  width: 250px;
+  height: 65px;
+  position: absolute;
+  font-size: 25px;
+  bottom: 490px;
+  right: 440px;
+  border-radius: 10px;
+}
+
+.firstgemBuyBtn:hover {
+  box-shadow: 0 0 30px 3px rgb(255, 0, 0);
+}
+
+
+.inscturction {
+  padding: 10px;
+    position: absolute;
+    margin-left: 65px;
+    margin-top: 750px;
+    width: 950px;
+    height: 330px;
+    background-color: transparent;
+    border: 2px solid rgb(48, 47, 66);
+    border-radius: 30px;
+    color: rgb(212, 216, 245);
+    background-color: rgba(0, 0, 0, 0.3);
+    font-family: Montserrat,sans-serif;
+    font-weight: 390;
+    box-shadow: 0 0 30px 3px rgb(86, 67, 127);
+    outline: none;
+}
+
+.opisanie {
+  font-family: Montserrat,sans-serif;
+  font-size: 19px;
+}
+
+.chto {
+  font-family: Montserrat,sans-serif;
+  position: absolute;
+  top: 55px;
+  left: 10px;
+}
+
+.secondgempng {
+  position: absolute;
+  width: 350px;
+  left: 370px;
+  top: 90px;
+}
+
+.voronkakpng {
+  width: 230px;
+  pointer-events: none;
+  position: absolute;
+  left: 425px;
+  top: 50px;
+}
+
+.leonkapng {
+  width: 250px;
+  pointer-events: none;
+  position: absolute;
+  left: 435px;
+  top: 100px;
+}
+
+.sandykapng{
+  width: 220px;
+  pointer-events: none;
+  position: absolute;
+  left: 425px;
+  top: 90px;
+}
+
+.firstgemcountsandy {
+  font-family: Montserrat,sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    color: white;
+    position: absolute;
+    pointer-events: none;
+    position: absolute;
+    bottom: 650px;
+    right: 490px;
+}
+
+.spikekapng {
+  width: 310px;
+  pointer-events: none;
+  position: absolute;
+  left: 400px;
+  top: 135px;
+}
+
+.maxkapng {
+  width: 210px;
+  pointer-events: none;
+  position: absolute;
+  left: 450px;
+  top: 30px;
+}
+
+.firstgemcountbea {
+  font-family: Montserrat,sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    color: white;
+    position: absolute;
+    pointer-events: none;
+    position: absolute;
+    bottom: 650px;
+    right: 505px;
+}
+
+.beakapng {
+  width: 310px;
+  pointer-events: none;
+  position: absolute;
+  left: 400px;
+  top: 130px;
+}
+
+.amberkapng {
+  width: 370px;
+  pointer-events: none;
+  position: absolute;
+  left: 405px;
+  top: 70px;
+}
+
+.megkapng {
+  width: 270px;
+  pointer-events: none;
+  position: absolute;
+  left: 420px;
+  top: 70px;
+}
+
+.chesterkapng{
+  width: 200px;
+  pointer-events: none;
+  position: absolute;
+  left: 465px;
+  top: 25px;
+}
+
+.mortiskapng {
+  width: 320px;
+  pointer-events: none;
+  position: absolute;
+  left: 385px;
+  top: 95px;
+}
+
+.firstgemcountkord {
+  font-family: Montserrat,sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    color: white;
+    position: absolute;
+    pointer-events: none;
+    position: absolute;
+    bottom: 650px;
+    right: 475px;
+}
+
+.kordkapng {
+  width: 390px;
+  pointer-events: none;
+  position: absolute;
+  left: 345px;
+  top: 178px;
+}
+
+.eshkapng{
+  width: 390px;
+  pointer-events: none;
+  position: absolute;
+  left: 385px;
+  top: 85px;
+}
+
+.firstgemcountchester {
+  font-family: Montserrat,sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    color: white;
+    position: absolute;
+    pointer-events: none;
+    position: absolute;
+    bottom: 650px;
+    right: 485px;
+}
+
+.twogold{
+  position: relative;
+  display: inline-block;
+ 
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 90px;
+    left: 10px;
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+ 
+}
+.twogold:hover {
+  transform: scale(1.05) rotate(3deg);
+}
+.twogold2{
+  position: relative;
+  display: inline-block;
+ 
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 90px;
+    left: 10px;
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+ 
+}
+.twogold2:hover {
+  transform: scale(1.05) rotate(3deg);
+}
+.twogold3{
+  position: relative;
+  display: inline-block;
+ 
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 90px;
+    left: 10px;
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+ 
+}
+.twogold3:hover {
+  transform: scale(1.05) rotate(3deg);
+}
+.smallgems1{
+  width: 370px;
+  pointer-events: none;
+  position: absolute;
+  top: -30px;
+  left: -45px;
+}
+.knifes1{
+  position: relative;
+  display: inline-block;
+ 
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    top: 300px;
+    left: -1220px;
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+ 
+}
+.knifes2{
+  position: relative;
+  display: inline-block;
+ 
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+ 
+    margin-left: 610px;
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+ 
+}
+.knifes3{
+  position: relative;
+  display: inline-block;
+ 
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+ 
+ 
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+ 
+}
+.knifes4{
+  position: relative;
+  display: inline-block;
+ 
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+ 
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+ 
+}
+.knifes5{
+  position: relative;
+  display: inline-block;
+ 
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    top: 300px;
+    margin-left: -1220px;
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+ 
+ 
+}
+.knifes6{
+  position: relative;
+  display: inline-block;
+ 
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    top: 300px;
+ 
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+ 
+ 
+}
+.knifes7{
+  position: relative;
+  display: inline-block;
+ 
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    top: 300px;
+ 
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+ 
+ 
+}
+.knifes8{
+  position: relative;
+  display: inline-block;
+ 
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    top: 300px;
+ 
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+ 
+ 
+}
+.knifes9{
+  position: relative;
+  display: inline-block;
+ 
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    top: 600px;
+    margin-left: -1220px;
+ 
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+ 
+ 
+}.knifes10{
+  position: relative;
+  display: inline-block;
+ 
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    top: 600px;
+ 
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+ 
+ 
+}.knifes11{
+  position: relative;
+  display: inline-block;
+ 
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    top: 600px;
+ 
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+ 
+ 
+}.knifes12{
+  position: relative;
+  display: inline-block;
+ 
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    top: 600px;
+ 
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+ 
+ 
+}
+.smallkunai{
+  width: 250px;
+  pointer-events: none;
+  position: absolute;
+  top: -30px;
+  left: -20px;
+}
+.knifes13{
+  position: relative;
+  display: inline-block;
+ 
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    top: 900px;
+    margin-left: -1220px;
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+ 
+ 
+}.knifes14{
+  position: relative;
+  display: inline-block;
+ 
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    top: 900px;
+ 
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+ 
+ 
+}.knifes15{
+  position: relative;
+  display: inline-block;
+ 
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    top: 900px;
+ 
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+ 
+ 
+}.knifes16{
+  position: relative;
+  display: inline-block;
+ 
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    top: 900px;
+ 
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+ 
+ 
+}
+.knifes17{
+  position: relative;
+  display: inline-block;
+ 
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    top: 1200px;
+    margin-left: -1220px;
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+ 
+ 
+}
+.knifes18{
+  position: relative;
+  display: inline-block;
+ 
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    top: 1200px;
+ 
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+ 
+ 
+}
+.knifes19{
+  position: relative;
+  display: inline-block;
+ 
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    top: 1200px;
+ 
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+ 
+ 
+}
+.knifes20{
+  position: relative;
+  display: inline-block;
+ 
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    top: 1200px;
+ 
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+ 
+ 
+}
+.knifes21{
+  position: relative;
+  display: inline-block;
+ 
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    top: 1500px;
+    margin-left: -1220px;
+ 
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+ 
+ 
+}
+.knifes22{
+  position: relative;
+  display: inline-block;
+ 
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    top: 1500px;
+ 
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+ 
+ 
+}
+.knifes23{
+  position: relative;
+  display: inline-block;
+ 
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    top: 1500px;
+ 
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+ 
+ 
+}
+.knifes24{
+  position: relative;
+  display: inline-block;
+ 
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    top: 1500px;
+ 
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+ 
+ 
+}
+.knifes25{
+  position: relative;
+  display: inline-block;
+ 
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    top: 1800px;
+    margin-left: -1220px;
+ 
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+ 
+ 
+}
+.knifes26{
+  position: relative;
+  display: inline-block;
+ 
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    top: 1800px;
+ 
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+ 
+ 
+}
+.knifes27{
+  position: relative;
+  display: inline-block;
+ 
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    top: 1800px;
+ 
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+ 
+ 
+}
+.knifes28{
+  position: relative;
+  display: inline-block;
+ 
+  width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    top: 1800px;
+ 
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+ 
+ 
+}
+.smallawm{
+  width: 250px;
+  pointer-events: none;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.smallaka{
+  width: 250px;
+  pointer-events: none;
+  position: absolute;
+  top: 70px;
+  left: 20px;
+}
+.smallp350{
+  width: 130px;
+  pointer-events: none;
+  position: absolute;
+  top: 70px;
+  left: 60px;
+}
+.smallkerambit{
+  width: 450px;
+  pointer-events: none;
+  position: absolute;
+  top: -45px;
+  left: -80px;
+}
+.smallm9{
+  width: 420px;
+  pointer-events: none;
+  position: absolute;
+  top: -20px;
+  left: -80px;
+}
+.knifes1:hover{
+  transform: scale(1.05) rotate(3deg);
+}
+.knifes2:hover{
+  transform: scale(1.05) rotate(3deg);
+}
+.knifes3:hover{
+  transform: scale(1.05) rotate(3deg);
+}
+.knifes4:hover{
+  transform: scale(1.05) rotate(3deg);
+}
+.knifes5:hover{
+  transform: scale(1.05) rotate(3deg);
+}
+.knifes6:hover{
+  transform: scale(1.05) rotate(3deg);
+}
+.knifes7:hover{
+  transform: scale(1.05) rotate(3deg);
+}
+.knifes8:hover{
+  transform: scale(1.05) rotate(3deg);
+}
+.knifes9:hover{
+  transform: scale(1.05) rotate(3deg);
+}
+.knifes10:hover{
+  transform: scale(1.05) rotate(3deg);
+}
+.knifes11:hover{
+  transform: scale(1.05) rotate(3deg);
+}
+.knifes12:hover{
+  transform: scale(1.05) rotate(3deg);
+}
+.knifes13:hover{
+  transform: scale(1.05) rotate(3deg);
+}
+.knifes14:hover{
+  transform: scale(1.05) rotate(3deg);
+}
+.knifes15:hover{
+  transform: scale(1.05) rotate(3deg);
+}
+.knifes16:hover{
+  transform: scale(1.05) rotate(3deg);
+}
+.knifes17:hover{
+  transform: scale(1.05) rotate(3deg);
+}
+.knifes18:hover{
+  transform: scale(1.05) rotate(3deg);
+}
+.knifes19:hover{
+  transform: scale(1.05) rotate(3deg);
+}
+.knifes20:hover{
+  transform: scale(1.05) rotate(3deg);
+}
+.knifes21:hover{
+  transform: scale(1.05) rotate(3deg);
+}
+.knifes22:hover{
+  transform: scale(1.05) rotate(3deg);
+}
+.knifes23:hover{
+  transform: scale(1.05) rotate(3deg);
+}
+.knifes24:hover{
+  transform: scale(1.05) rotate(3deg);
+}
+.knifes25:hover{
+  transform: scale(1.05) rotate(3deg);
+}
+.knifes26:hover{
+  transform: scale(1.05) rotate(3deg);
+}
+.knifes27:hover{
+  transform: scale(1.05) rotate(3deg);
+}
+.knifes28:hover{
+  transform: scale(1.05) rotate(3deg);
+}
+.firstreviewName {
+  color: rgb(235, 235, 235);
+  font-family: Montserrat, sans-serif;
+  position: absolute;
+  margin-left: 135px;
+  top: 10px;
+  }
+  .img50{
+    position: absolute;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+    top: 15px;
+  }
+    
+  .secondreviewName {
+  color: rgb(235, 235, 235);
+  font-family: Montserrat, sans-serif;
+  position: absolute;
+  margin-left: 130px;
+  top: 30px;
+  }
+  .reviewFirst{
+    color: rgb(235, 235, 235);
+    font-family: Montserrat, sans-serif;
+    position: absolute;
+    margin-left: 40px;
+    top: 150px;
+    
+  }
+  .firstreview {
+    position: relative;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid rgb(48, 47, 66);
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    top: 130px;
+    margin-left: 300px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    opacity: 0; /* установка начальной прозрачности элемента */
+    animation: fadeIn 1s ease forwards; /* добавление анимации */
+    
+    
+    }
+    .r2review {
+      position: relative;
+      display: inline-block;
+      background-color: rgba(0, 0, 0, 0.1);
+      border: 1px solid rgb(48, 47, 66);
+      width: 300px;
+      height: 300px;
+      border-radius: 10px;
+      top: 130px;  
+      left: 20px;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+      opacity: 0; /* установка начальной прозрачности элемента */
+      animation: fadeIn 1s ease forwards; /* добавление анимации */
+      
+      
+      }
+      .r3review {
+        position: relative;
+        display: inline-block;
+        background-color: rgba(0, 0, 0, 0.1);
+        border: 1px solid rgb(48, 47, 66);
+        width: 300px;
+        height: 300px;
+        border-radius: 10px;
+        top: 130px;
+        left: 40px;
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+        opacity: 0; /* установка начальной прозрачности элемента */
+        animation: fadeIn 1s ease forwards; /* добавление анимации */
+        
+        
+        }
+        .r4review {
+          position: relative;
+          display: inline-block;
+          background-color: rgba(0, 0, 0, 0.1);
+          border: 1px solid rgb(48, 47, 66);
+          width: 300px;
+          height: 300px;
+          border-radius: 10px;
+          top: 130px;
+          left: 60px;
+          box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+          opacity: 0; /* установка начальной прозрачности элемента */
+          animation: fadeIn 1s ease forwards; /* добавление анимации */
+          
+          
+          }
+          .r5review {
+            position: relative;
+  display: inline-block;
+            background-color: rgba(0, 0, 0, 0.1);
+            border: 1px solid rgb(48, 47, 66);
+            width: 300px;
+            height: 300px;
+            border-radius: 10px;
+            top: 170px;
+            margin-left: 300px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+            opacity: 0; /* установка начальной прозрачности элемента */
+            animation: fadeIn 1s ease forwards; /* добавление анимации */
+            
+            }
+            .r6review {
+              position: relative;
+              display: inline-block;
+              background-color: rgba(0, 0, 0, 0.1);
+              border: 1px solid rgb(48, 47, 66);
+              width: 300px;
+              height: 300px;
+              border-radius: 10px;
+              top: 170px;
+              left: 20px;
+              box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+              opacity: 0; /* установка начальной прозрачности элемента */
+              animation: fadeIn 1s ease forwards; /* добавление анимации */
+             
+              }
+.r7review
+{
+  position: relative;
+              display: inline-block;
+              background-color: rgba(0, 0, 0, 0.1);
+              border: 1px solid rgb(48, 47, 66);
+              width: 300px;
+              height: 300px;
+              border-radius: 10px;
+              top: 170px;
+              left: 40px;
+              box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+              opacity: 0; /* установка начальной прозрачности элемента */
+              animation: fadeIn 1s ease forwards; /* добавление анимации */
+              
+}
+.r8review
+{
+  position: relative;
+              display: inline-block;
+              background-color: rgba(0, 0, 0, 0.1);
+              border: 1px solid rgb(48, 47, 66);
+              width: 300px;
+              height: 300px;
+              border-radius: 10px;
+             top: 170px;
+              left: 60px;
+              box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+              opacity: 0; /* установка начальной прозрачности элемента */
+              animation: fadeIn 1s ease forwards; /* добавление анимации */
+              
+}
+.r9review
+{
+  position: relative;
+              display: inline-block;
+              background-color: rgba(0, 0, 0, 0.1);
+              border: 1px solid rgb(48, 47, 66);
+              width: 300px;
+              height: 300px;
+              border-radius: 10px;
+              top: 210px;
+              margin-left: 300px;
+              
+              box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+              opacity: 0; /* установка начальной прозрачности элемента */
+              animation: fadeIn 1s ease forwards; /* добавление анимации */
+              
+}
+.r10review
+{
+  position: relative;
+              display: inline-block;
+              background-color: rgba(0, 0, 0, 0.1);
+              border: 1px solid rgb(48, 47, 66);
+              width: 300px;
+              height: 300px;
+              border-radius: 10px;
+              top: 210px;
+              left: 20px;
+              box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+              opacity: 0; /* установка начальной прозрачности элемента */
+              animation: fadeIn 1s ease forwards; /* добавление анимации */
+              
+}
+.r11review
+{
+  position: relative;
+              display: inline-block;
+              background-color: rgba(0, 0, 0, 0.1);
+              border: 1px solid rgb(48, 47, 66);
+              width: 300px;
+              height: 300px;
+              border-radius: 10px;
+              top: 210px;
+              left: 40px;
+              box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+              opacity: 0; /* установка начальной прозрачности элемента */
+              animation: fadeIn 1s ease forwards; /* добавление анимации */
+              
+}
+.r12review
+{
+  position: relative;
+              display: inline-block;
+              background-color: rgba(0, 0, 0, 0.1);
+              border: 1px solid rgb(48, 47, 66);
+              width: 300px;
+              height: 300px;
+              border-radius: 10px;
+              top: 210px;
+              left: 60px;
+              box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+              opacity: 0; /* установка начальной прозрачности элемента */
+              animation: fadeIn 1s ease forwards; /* добавление анимации */
+              
+}
+
+
+
+.r13review
+{
+  position: relative;
+              display: inline-block;
+              background-color: rgba(0, 0, 0, 0.1);
+              border: 1px solid rgb(48, 47, 66);
+              width: 300px;
+              height: 300px;
+              border-radius: 10px;
+              top: 250px;
+              margin-left: 300px;
+              
+              box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+              opacity: 0; /* установка начальной прозрачности элемента */
+              animation: fadeIn 1s ease forwards; /* добавление анимации */
+              
+}
+.r14review
+{
+  position: relative;
+              display: inline-block;
+              background-color: rgba(0, 0, 0, 0.1);
+              border: 1px solid rgb(48, 47, 66);
+              width: 300px;
+              height: 300px;
+              border-radius: 10px;
+              top: 250px;
+              left: 20px;
+              box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+              opacity: 0; /* установка начальной прозрачности элемента */
+              animation: fadeIn 1s ease forwards; /* добавление анимации */
+              
+}
+.r15review
+{
+  position: relative;
+              display: inline-block;
+              background-color: rgba(0, 0, 0, 0.1);
+              border: 1px solid rgb(48, 47, 66);
+              width: 300px;
+              height: 300px;
+              border-radius: 10px;
+              top: 250px;
+              left: 40px;
+              box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+              opacity: 0; /* установка начальной прозрачности элемента */
+              animation: fadeIn 1s ease forwards; /* добавление анимации */
+              
+}
+.r16review
+{
+  position: relative;
+              display: inline-block;
+              background-color: rgba(0, 0, 0, 0.1);
+              border: 1px solid rgb(48, 47, 66);
+              width: 300px;
+              height: 300px;
+              border-radius: 10px;
+              top: 250px;
+              left: 60px;
+              box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+              opacity: 0; /* установка начальной прозрачности элемента */
+              animation: fadeIn 1s ease forwards; /* добавление анимации */
+              
+}
+
+
+
+.r17review
+{
+  position: relative;
+              display: inline-block;
+              background-color: rgba(0, 0, 0, 0.1);
+              border: 1px solid rgb(48, 47, 66);
+              width: 300px;
+              height: 300px;
+              border-radius: 10px;
+              top: 290px;
+              margin-left: 300px;
+              
+              box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+              opacity: 0; /* установка начальной прозрачности элемента */
+              animation: fadeIn 1s ease forwards; /* добавление анимации */
+              
+}
+.r18review
+{
+  position: relative;
+              display: inline-block;
+              background-color: rgba(0, 0, 0, 0.1);
+              border: 1px solid rgb(48, 47, 66);
+              width: 300px;
+              height: 300px;
+              border-radius: 10px;
+              top: 290px;
+              left: 20px;
+              box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+              opacity: 0; /* установка начальной прозрачности элемента */
+              animation: fadeIn 1s ease forwards; /* добавление анимации */
+              
+}
+.r19review
+{
+  position: relative;
+              display: inline-block;
+              background-color: rgba(0, 0, 0, 0.1);
+              border: 1px solid rgb(48, 47, 66);
+              width: 300px;
+              height: 300px;
+              border-radius: 10px;
+              top: 290px;
+              left: 40px;
+              box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+              opacity: 0; /* установка начальной прозрачности элемента */
+              animation: fadeIn 1s ease forwards; /* добавление анимации */
+              
+}
+.r20review
+{
+  position: relative;
+              display: inline-block;
+              background-color: rgba(0, 0, 0, 0.1);
+              border: 1px solid rgb(48, 47, 66);
+              width: 300px;
+              height: 300px;
+              border-radius: 10px;
+              top: 290px;
+              left: 60px;
+              box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+              opacity: 0; /* установка начальной прозрачности элемента */
+              animation: fadeIn 1s ease forwards; /* добавление анимации */
+              
+}
+
+
+.r21review
+{
+  position: relative;
+              display: inline-block;
+              background-color: rgba(0, 0, 0, 0.1);
+              border: 1px solid rgb(48, 47, 66);
+              width: 300px;
+              height: 300px;
+              border-radius: 10px;
+              top: 330px;
+              margin-left: 300px;
+              
+              box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+              opacity: 0; /* установка начальной прозрачности элемента */
+              animation: fadeIn 1s ease forwards; /* добавление анимации */
+              
+}
+.r22review
+{
+  position: relative;
+              display: inline-block;
+              background-color: rgba(0, 0, 0, 0.1);
+              border: 1px solid rgb(48, 47, 66);
+              width: 300px;
+              height: 300px;
+              border-radius: 10px;
+              top: 330px;
+              left: 20px;
+              box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+              opacity: 0; /* установка начальной прозрачности элемента */
+              animation: fadeIn 1s ease forwards; /* добавление анимации */
+              
+}
+.r23review
+{
+  position: relative;
+              display: inline-block;
+              background-color: rgba(0, 0, 0, 0.1);
+              border: 1px solid rgb(48, 47, 66);
+              width: 300px;
+              height: 300px;
+              border-radius: 10px;
+              top: 330px;
+              left: 40px;
+              box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+              opacity: 0; /* установка начальной прозрачности элемента */
+              animation: fadeIn 1s ease forwards; /* добавление анимации */
+              
+}
+.r24review
+{
+  position: relative;
+              display: inline-block;
+              background-color: rgba(0, 0, 0, 0.1);
+              border: 1px solid rgb(48, 47, 66);
+              width: 300px;
+              height: 300px;
+              border-radius: 10px;
+              top: 330px;
+              left: 60px;
+              box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+              opacity: 0; /* установка начальной прозрачности элемента */
+              animation: fadeIn 1s ease forwards; /* добавление анимации */
+              
+}
+
+
+
+.r25review
+{
+  position: relative;
+              display: inline-block;
+              background-color: rgba(0, 0, 0, 0.1);
+              border: 1px solid rgb(48, 47, 66);
+              width: 300px;
+              height: 300px;
+              border-radius: 10px;
+              top: 370px;
+              margin-left: 300px;
+              
+              box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+              opacity: 0; /* установка начальной прозрачности элемента */
+              animation: fadeIn 1s ease forwards; /* добавление анимации */
+              
+}
+.r26review
+{
+  position: relative;
+              display: inline-block;
+              background-color: rgba(0, 0, 0, 0.1);
+              border: 1px solid rgb(48, 47, 66);
+              width: 300px;
+              height: 300px;
+              border-radius: 10px;
+              top: 370px;
+              left: 20px;
+              box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+              opacity: 0; /* установка начальной прозрачности элемента */
+              animation: fadeIn 1s ease forwards; /* добавление анимации */
+              
+}
+.r27review
+{
+  position: relative;
+              display: inline-block;
+              background-color: rgba(0, 0, 0, 0.1);
+              border: 1px solid rgb(48, 47, 66);
+              width: 300px;
+              height: 300px;
+              border-radius: 10px;
+              top: 370px;
+              left: 40px;
+              box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+              opacity: 0; /* установка начальной прозрачности элемента */
+              animation: fadeIn 1s ease forwards; /* добавление анимации */
+              
+}
+.r28review
+{
+  position: relative;
+              display: inline-block;
+              background-color: rgba(0, 0, 0, 0.1);
+              border: 1px solid rgb(48, 47, 66);
+              width: 300px;
+              height: 300px;
+              border-radius: 10px;
+              top: 370px;
+              left: 60px;
+              box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+              opacity: 0; /* установка начальной прозрачности элемента */
+              animation: fadeIn 1s ease forwards; /* добавление анимации */
+              
+}
+
+.firstreviewName1 {
+  color: rgb(235, 235, 235);
+  font-family: Montserrat, sans-serif;
+  position: absolute;
+  margin-left: 150px;
+  top: 10px;
+  }
+  .firstreviewName2 {
+    color: rgb(235, 235, 235);
+    font-family: Montserrat, sans-serif;
+    position: absolute;
+    margin-left: 150px;
+    top: 10px;
+    }
+    .firstreviewName3 {
+      color: rgb(235, 235, 235);
+      font-family: Montserrat, sans-serif;
+      position: absolute;
+      margin-left: 115px;
+      top: 10px;
+      }
+      .firstreviewName4 {
+        color: rgb(235, 235, 235);
+        font-family: Montserrat, sans-serif;
+        position: absolute;
+        margin-left: 115px;
+        top: 10px;
+        }
+        .firstreviewName5 {
+          color: rgb(235, 235, 235);
+          font-family: Montserrat, sans-serif;
+          position: absolute;
+          margin-left: 125px;
+          top: 10px;
+          }
+          .firstreviewName6 {
+            color: rgb(235, 235, 235);
+            font-family: Montserrat, sans-serif;
+            position: absolute;
+            margin-left: 115px;
+            top: 10px;
+            }
+            .firstreviewName7 {
+              color: rgb(235, 235, 235);
+              font-family: Montserrat, sans-serif;
+              position: absolute;
+              margin-left: 115px;
+              top: 10px;
+              }
+              .firstreviewName8 {
+                color: rgb(235, 235, 235);
+                font-family: Montserrat, sans-serif;
+                position: absolute;
+                margin-left: 150px;
+                top: 10px;
+                }
+                .firstreviewName9 {
+                  color: rgb(235, 235, 235);
+                  font-family: Montserrat, sans-serif;
+                  position: absolute;
+                  margin-left: 120px;
+                  top: 10px;
+                  }
+                  .firstreviewName10 {
+                    color: rgb(235, 235, 235);
+                    font-family: Montserrat, sans-serif;
+                    position: absolute;
+                    margin-left: 145px;
+                    top: 10px;
+                    }
+                    .firstreviewName11 {
+                      color: rgb(235, 235, 235);
+                      font-family: Montserrat, sans-serif;
+                      position: absolute;
+                      margin-left: 120px;
+                      top: 10px;
+                      }
+                      .firstreviewName12{
+                        color: rgb(235, 235, 235);
+                        font-family: Montserrat, sans-serif;
+                        position: absolute;
+                        margin-left: 140px;
+                        top: 10px;
+                        }
+                        .firstreviewName13 {
+                          color: rgb(235, 235, 235);
+                          font-family: Montserrat, sans-serif;
+                          position: absolute;
+                          margin-left: 115px;
+                          top: 10px;
+                          }
+                          .firstreviewName14 {
+                            color: rgb(235, 235, 235);
+                            font-family: Montserrat, sans-serif;
+                            position: absolute;
+                            margin-left: 115px;
+                            top: 10px;
+                            }
+                            .firstreviewName15 {
+                              color: rgb(235, 235, 235);
+                              font-family: Montserrat, sans-serif;
+                              position: absolute;
+                              margin-left: 145px;
+                              top: 10px;
+                              }
+                              .firstreviewName16 {
+                                color: rgb(235, 235, 235);
+                                font-family: Montserrat, sans-serif;
+                                position: absolute;
+                                margin-left: 145px;
+                                top: 10px;
+                                }
+                                .firstreviewName17 {
+                                  color: rgb(235, 235, 235);
+                                  font-family: Montserrat, sans-serif;
+                                  position: absolute;
+                                  margin-left: 140px;
+                                  top: 10px;
+                                  }
+                                  .firstreviewName18 {
+                                    color: rgb(235, 235, 235);
+                                    font-family: Montserrat, sans-serif;
+                                    position: absolute;
+                                    margin-left: 145px;
+                                    top: 10px;
+                                    }
+                                    .firstreviewName19 {
+                                      color: rgb(235, 235, 235);
+                                      font-family: Montserrat, sans-serif;
+                                      position: absolute;
+                                      margin-left: 145px;
+                                      top: 10px;
+                                      }
+                                      .firstreviewName20 {
+                                        color: rgb(235, 235, 235);
+                                        font-family: Montserrat, sans-serif;
+                                        position: absolute;
+                                        margin-left: 115px;
+                                        top: 10px;
+                                        }
+                                        .warrantyfeed {
+                                          color: #ffba00;
+                                          font-family: Montserrat, sans-serif;
+                                          font-weight: 600;
+                                          position: absolute;
+                                          margin-left: 870px;
+                                          top: 150px;
+                                          font-size: 30px;
+                                          transition: color 0.5s ease-in-out, text-shadow 0.5s ease-in-out; /* добавляем плавную анимацию */
+                                        }
+                                        .secondreview {
+                                          animation-delay: 0.3s;
+                                          }
+                                          
+                                          .thirdreview {
+                                          animation-delay: 0.6s;
+                                          }
+                                          .fourthreview {
+                                          animation-delay: 0.9s;
+                                          }
+                                          
+                                          .fifththdreview {
+                                          animation-delay: 1.2s;
+                                          }
+                                          .sixthreview {
+                                            animation-delay: 1.5s;
+                                            }
+                                            
+/* телефоны */
+}
