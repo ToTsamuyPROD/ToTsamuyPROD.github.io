@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="recources/styles.css">
+  <link rel="icon" type="image/png" href="recources/gema.png">
+  <script src="recources/block.js" defer></script>
+  <title>GameStore - Поддержка</title>
+</head>
+<body>
+  <div id="animated-container">
+    <h1 id="animated" class="govno">GameStore</h1>
+  </div>
+
+  <label for="burger-checkbox" class="burger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </label>
+  <input type="checkbox" id="burger-checkbox">
+  <div class="menu">
+    <a href="index.html" class="main">Главная</a>
+      <a href="support.html" class="support">Поддержка</a>
+      <a href="guarantees.html" class="guarantees">Гарантии</a>
+      <a href="howbuy.html" class="howbuy">Как купить</a>
+      <a href="feed.html" class="feed">Отзывы</a>
+  </div>
+  
+  <h1 class="warranty">Техническая Поддержка</h1>
+<div class = "windowinsupport">
+<label class = "EmailLabel">Напишите вашу почту</label>
+<input class = "EmailInput" id="mail">
+<label class = "NameLabel">Напишите ваше имя</label>
+<input class="NameInput" id="namei">
+<label class = "ProblemLabel">Опишите вашу проблему</label>
+<textarea class= "ProblemInput" id="problem"></textarea>
+<input type="submit" class="sprtBtn" id="sendBtn">
+<a href="https://www.dmca.com/"><img src="https://images.dmca.com/Badges/_dmca_premi_badge_5.png?ID=5bc5d3d8-98bf-49a1-b032-f96e4ef06fc2" class="dmca" alt=""></a>
+</div>
+<style>
+  .windowinsupport {
+  opacity: 0; /* устанавливаем начальную прозрачность элемента */
+  animation: fadeIn 1s ease-in-out forwards; /* добавляем анимацию */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0; /* начальное значение прозрачности */
+    transform: translateY(50px); /* начальное значение смещения по вертикали */
+  }
+  to {
+    opacity: 1; /* конечное значение прозрачности */
+    transform: translateY(0); /* конечное значение смещения по вертикали */
+  }
+}
+
+
+</style>
+</body>
+</html>
+</body>
+</html>
